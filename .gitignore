@@ -1,0 +1,16 @@
+# Credentials and local runtime state must never be published.
+.env
+.env.*
+*.pem
+*.key
+.venv/
+venv/
+.cache/
+logs/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local reproduction artifacts
+*.jsonl
+demo_run/

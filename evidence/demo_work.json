@@ -1,0 +1,29 @@
+{
+  "corrected_run": {
+    "replies": 10,
+    "llm_requests": 11,
+    "query_embeddings": 4,
+    "index_embedding_calls": 0,
+    "llm_input_tokens": 16489,
+    "llm_output_tokens": 611,
+    "embedding_input_tokens": 100
+  },
+  "initial_preserved_attempt": {
+    "replies": 10,
+    "llm_requests": 11,
+    "query_embeddings": 4,
+    "index_embedding_calls": 1,
+    "llm_input_tokens": 16489,
+    "llm_output_tokens": 614,
+    "embedding_input_tokens": 2506
+  },
+  "whole_demo_step": {
+    "replies": 20,
+    "llm_requests": 22,
+    "query_embeddings": 8,
+    "index_embedding_calls": 1,
+    "llm_input_tokens": 32978,
+    "llm_output_tokens": 1225,
+    "embedding_input_tokens": 2606
+  }
+}

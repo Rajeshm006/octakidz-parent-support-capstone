@@ -1,0 +1,39 @@
+{
+  "data_origin": "Authored generic follow-up; no real parent/student data.",
+  "question": "And how does that work?",
+  "before": {
+    "version": "phase3_llm_v1",
+    "run": "evidence/phase3/run_20261024T185245Z/results.json",
+    "reply": {
+      "answer": "Octakidz works by getting to know your child through their answers to thinking activities. These answers help build a personal map of what your child likes, dislikes, and enjoys, including their favourite stories and subjects. The AI tutor then uses this map to explain CBSE concepts in ways that connect with your child's interests, making learning more meaningful and easier to understand. Meanwhile, the activities also help your child practise thinking skills and develop different kinds of intelligence, supporting their overall growth.",
+      "outcome": "answered",
+      "source_ids": [
+        "octa_tutor_003",
+        "octa_tutor_004",
+        "octa_tutor_005",
+        "octa_tutor_007"
+      ],
+      "model_called": true,
+      "latency_ms": 1595.0688329976401,
+      "error_code": null,
+      "input_tokens": 3517,
+      "output_tokens": 135
+    }
+  },
+  "root_cause": "The stateless model inferred a topic from product context despite having no prior user turn.",
+  "fix": "A local rule asks for clarification for a short pronoun-based question with no identified support topic. No conversation memory was added.",
+  "after": {
+    "version": "phase3_llm_v2",
+    "reply": {
+      "answer": "Could you tell me which part of Octakidz you'd like me to explain?",
+      "outcome": "clarify",
+      "source_ids": [],
+      "model_called": false,
+      "latency_ms": 0.07991599704837427,
+      "error_code": null,
+      "input_tokens": 0,
+      "output_tokens": 0
+    }
+  },
+  "limits": "This is a targeted before/after check. The full 20-case comparison is preserved as the pre-fix run and has not been relabelled as a post-fix run."
+}

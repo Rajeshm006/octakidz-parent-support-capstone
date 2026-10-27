@@ -1,0 +1,93 @@
+{
+  "version": "clean_install_v1",
+  "launcher_version": "phase8_launcher_v1",
+  "status": "complete_with_assistant_content_review",
+  "host_python": "3.14.4",
+  "os": "Darwin",
+  "machine": "arm64",
+  "live_enabled": true,
+  "copied_existing_env": false,
+  "copied_existing_cache": false,
+  "copied_existing_logs": false,
+  "copied_key_file": false,
+  "temporary_workspace_removed": true,
+  "missing_key_report": {
+    "launcher_version": "phase8_launcher_v1",
+    "ready": false,
+    "api_requests": 0,
+    "latency_ms": 477.0607079844922,
+    "checks": [
+      {
+        "code": "python_ready",
+        "status": "passed",
+        "message": "Python meets the minimum version requirement."
+      },
+      {
+        "code": "source_files_present",
+        "status": "passed",
+        "message": "Required capstone source files are present."
+      },
+      {
+        "code": "dependencies_ready",
+        "status": "passed",
+        "message": "Installed packages match requirements.lock.txt."
+      },
+      {
+        "code": "key_setup_needed",
+        "status": "failed",
+        "message": "Add or correct OPENAI_API_KEY in your local .env file or environment. Never paste it into chat."
+      },
+      {
+        "code": "support_files_valid",
+        "status": "passed",
+        "message": "The curated support data and required prompts are readable."
+      },
+      {
+        "code": "index_not_built",
+        "status": "notice",
+        "message": "The first knowledge search will build the public FAQ index using OpenAI; this check does not build it."
+      }
+    ]
+  },
+  "fresh_setup_report": {
+    "launcher_version": "phase8_launcher_v1",
+    "ready": true,
+    "api_requests": 0,
+    "latency_ms": 402.0316670066677,
+    "checks": [
+      {
+        "code": "python_ready",
+        "status": "passed",
+        "message": "Python meets the minimum version requirement."
+      },
+      {
+        "code": "source_files_present",
+        "status": "passed",
+        "message": "Required capstone source files are present."
+      },
+      {
+        "code": "dependencies_ready",
+        "status": "passed",
+        "message": "Installed packages match requirements.lock.txt."
+      },
+      {
+        "code": "key_configured",
+        "status": "passed",
+        "message": "A local API key is configured; it has not been checked online."
+      },
+      {
+        "code": "support_files_valid",
+        "status": "passed",
+        "message": "The curated support data and required prompts are readable."
+      },
+      {
+        "code": "index_not_built",
+        "status": "notice",
+        "message": "The first knowledge search will build the public FAQ index using OpenAI; this check does not build it."
+      }
+    ]
+  },
+  "cache_present_before_first_live_question": false,
+  "cache_created_in_clean_copy": true,
+  "reviewer": "Codex assistant content review; not independent expert scoring"
+}

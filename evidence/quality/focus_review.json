@@ -1,0 +1,463 @@
+{
+  "reviewer": "Codex assistant",
+  "limitations": "Previously known authored development questions, not held-out or independent expert scoring. Fresh controls preserve run variability. Semantic point and grounding judgments can be re-reviewed against the saved replies; action labels and keywords alone are not accuracy.",
+  "stages": {
+    "before": {
+      "total": 12,
+      "fully_acceptable": 8,
+      "all_points": 9,
+      "points_met": 35,
+      "points_expected": 38,
+      "rows": [
+        {
+          "id": "q01_two_purposes_normal",
+          "met_points": [
+            "map",
+            "cbse",
+            "practice",
+            "intelligences"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 79,
+          "note": "Activity-informed interest map guides CBSE explanations, with independent thinking/creating/problem-solving and explicit per-task 2–3 of eight. Building the map from responses conveys evolving understanding without demanding an exact word."
+        },
+        {
+          "id": "q01_two_purposes_short",
+          "met_points": [
+            "map",
+            "cbse",
+            "practice",
+            "intelligences"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 50,
+          "note": "Short answer retains the activity-built interest/story map, CBSE connection and independent 2–3-of-eight practice."
+        },
+        {
+          "id": "c04_activities_normal",
+          "met_points": [
+            "examples",
+            "intelligences",
+            "map",
+            "tutor"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 81,
+          "note": "Comparing, explaining, solving and creating examples, per-activity count, activity-built map and tutor connection are present."
+        },
+        {
+          "id": "c04_activities_short",
+          "met_points": [
+            "examples",
+            "map",
+            "tutor"
+          ],
+          "missing_points": [
+            "intelligences"
+          ],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": false,
+          "fully_acceptable": false,
+          "words": 40,
+          "note": "Thinking examples and activity-informed interests guiding CBSE explanations are present (implicit map meaning); the explicit per-activity 2–3-of-eight distinction is absent."
+        },
+        {
+          "id": "chat02_map_normal",
+          "met_points": [
+            "map",
+            "cbse",
+            "practice"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 86,
+          "note": "Evolving evidence-based interest map, explicit CBSE use, and separate thinking practice through 2–3 of eight are retained. No actual map is accessed."
+        },
+        {
+          "id": "chat02_map_short",
+          "met_points": [
+            "map",
+            "cbse",
+            "practice"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 55,
+          "note": "Evolving map, CBSE examples and independent thinking/problem-solving with explicit count are retained in short mode."
+        },
+        {
+          "id": "c03_adventure_normal",
+          "met_points": [
+            "story",
+            "cbse",
+            "no_assessment"
+          ],
+          "missing_points": [],
+          "grounded": false,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": false,
+          "words": 86,
+          "note": "An adventure/quest illustration and school concepts are present, with no real assessment. However, the unqualified math-or-science offering implies unconfirmed science coverage; grounding fails under the unchanged coverage rule."
+        },
+        {
+          "id": "c03_adventure_short",
+          "met_points": [
+            "cbse",
+            "no_assessment"
+          ],
+          "missing_points": [
+            "story"
+          ],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": false,
+          "fully_acceptable": false,
+          "words": 48,
+          "note": "Describes using adventure stories for school concepts without showing a scene or concept in that setting. Credit school connection and no assessment, but the requested illustrative context is not demonstrated."
+        },
+        {
+          "id": "q04_fractions_example_normal",
+          "met_points": [
+            "illustration",
+            "same_concept"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 92,
+          "note": "A football team sharing a whole pizza equally is a clear interest-based equal-parts illustration. No denominator is needed by the original criterion. The concept remains unchanged; no package feature is asserted."
+        },
+        {
+          "id": "q04_fractions_example_short",
+          "met_points": [
+            "same_concept"
+          ],
+          "missing_points": [
+            "illustration"
+          ],
+          "grounded": true,
+          "safe": true,
+          "clear": false,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": false,
+          "fully_acceptable": false,
+          "words": 44,
+          "note": "Sharing the ball or dividing game time into unspecified parts gives no clear whole and equal shares. Credit the same-concept connection, but illustration and clarity fail consistently with the previous audit."
+        },
+        {
+          "id": "q10_parent_help_normal",
+          "met_points": [
+            "own_work",
+            "gentle_help",
+            "team"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 75,
+          "note": "Leave answers to the child, explain instructions/ask gentle questions, and seek team guidance if stuck or more help is needed. No completed contact claimed."
+        },
+        {
+          "id": "q10_parent_help_short",
+          "met_points": [
+            "own_work",
+            "gentle_help",
+            "team"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 51,
+          "note": "Own answers, gentle instruction/question support and the conditional team-help route are all present."
+        }
+      ]
+    },
+    "after": {
+      "total": 12,
+      "fully_acceptable": 12,
+      "all_points": 12,
+      "points_met": 38,
+      "points_expected": 38,
+      "rows": [
+        {
+          "id": "q01_two_purposes_normal",
+          "met_points": [
+            "map",
+            "cbse",
+            "practice",
+            "intelligences"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 72,
+          "note": "Activity-informed interest map guides CBSE explanations, with independent thinking/creating/problem-solving and explicit per-task 2–3 of eight. Building the map from responses conveys evolving understanding without demanding an exact word."
+        },
+        {
+          "id": "q01_two_purposes_short",
+          "met_points": [
+            "map",
+            "cbse",
+            "practice",
+            "intelligences"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 50,
+          "note": "Short answer retains the activity-built interest/story map, CBSE connection and independent 2–3-of-eight practice."
+        },
+        {
+          "id": "c04_activities_normal",
+          "met_points": [
+            "examples",
+            "intelligences",
+            "map",
+            "tutor"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 77,
+          "note": "Comparing, explaining, solving and creating examples, per-activity count, activity-built map and tutor connection are present."
+        },
+        {
+          "id": "c04_activities_short",
+          "met_points": [
+            "examples",
+            "intelligences",
+            "map",
+            "tutor"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 47,
+          "note": "Examples, per-activity 2–3-of-eight, personal map from the activities and CBSE explanations connected to interests are present."
+        },
+        {
+          "id": "chat02_map_normal",
+          "met_points": [
+            "map",
+            "cbse",
+            "practice"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 81,
+          "note": "Evolving evidence-based interest map, explicit CBSE use, and separate thinking practice through 2–3 of eight are retained. No actual map is accessed."
+        },
+        {
+          "id": "chat02_map_short",
+          "met_points": [
+            "map",
+            "cbse",
+            "practice"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 55,
+          "note": "Evolving map, CBSE examples and independent thinking/problem-solving with explicit count are retained in short mode."
+        },
+        {
+          "id": "c03_adventure_normal",
+          "met_points": [
+            "story",
+            "cbse",
+            "no_assessment"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 94,
+          "note": "A hypothetical treasure-sharing scene shows the same school concept through adventure interests, with no real-child assessment or new subject catalogue claim. The example remains conditional, not an actual delivered lesson."
+        },
+        {
+          "id": "c03_adventure_short",
+          "met_points": [
+            "story",
+            "cbse",
+            "no_assessment"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 55,
+          "note": "A hypothetical treasure map divided into equal sections provides an adventure setting for an unchanged school concept. No assessment or unconfirmed subject coverage is asserted."
+        },
+        {
+          "id": "q04_fractions_example_normal",
+          "met_points": [
+            "illustration",
+            "same_concept"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 86,
+          "note": "A football team shares a whole pizza cut into eight equal slices; three of eight is a clear illustrative fraction. Familiar context changes while the concept remains. No actual assigned lesson or package promise."
+        },
+        {
+          "id": "q04_fractions_example_short",
+          "met_points": [
+            "illustration",
+            "same_concept"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 51,
+          "note": "A team shares a whole pizza equally after a match, with each slice a fraction of the whole. This meets the original equal-parts illustration criterion despite omitting a numerical denominator requested by the newer instruction. Do not silently strengthen the frozen scoring criterion."
+        },
+        {
+          "id": "q10_parent_help_normal",
+          "met_points": [
+            "own_work",
+            "gentle_help",
+            "team"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 67,
+          "note": "Leave answers to the child, explain instructions/ask gentle questions, and seek team guidance if stuck or more help is needed. No completed contact claimed."
+        },
+        {
+          "id": "q10_parent_help_short",
+          "met_points": [
+            "own_work",
+            "gentle_help",
+            "team"
+          ],
+          "missing_points": [],
+          "grounded": true,
+          "safe": true,
+          "clear": true,
+          "action_agrees": true,
+          "style_agrees": true,
+          "all_points": true,
+          "fully_acceptable": true,
+          "words": 52,
+          "note": "Own answers, gentle instruction/question support and the conditional team-help route are all present."
+        }
+      ]
+    }
+  }
+}

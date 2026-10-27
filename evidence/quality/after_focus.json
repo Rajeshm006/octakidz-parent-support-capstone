@@ -1,0 +1,4351 @@
+{
+  "version": "completeness_focus_audit_v1",
+  "stage": "after",
+  "agent_version": "phase9_answer_quality_v1",
+  "model": "gpt-4.1-mini",
+  "status": "complete_pending_review",
+  "started_utc": "2026-10-27T14:55:41.570479+00:00",
+  "finished_utc": "2026-10-27T14:56:44.722514+00:00",
+  "rows": [
+    {
+      "id": "q01_two_purposes_normal",
+      "base_id": "q01_two_purposes",
+      "style": "normal",
+      "question": "If the tutor already explains lessons, why should my child still do the thinking tasks?",
+      "points": {
+        "map": "Activity responses build an evolving personal map of interests/preferences.",
+        "cbse": "The map informs tutor explanations of CBSE concepts through familiar examples.",
+        "practice": "Activities also have independent value practising thinking/creating/problem-solving.",
+        "intelligences": "Each activity focuses on 2–3 of eight Natural Intelligences, not all eight at once."
+      },
+      "current": {
+        "answer": "The thinking tasks your child does are very important because they help us get to know what your child likes, dislikes, and enjoys, building a personal map that guides the AI tutor to explain CBSE lessons in ways connected to your child's interests. Also, each task focuses on 2–3 of eight Natural Intelligences, giving your child valuable practice in thinking, creating, and solving problems, which supports deeper learning beyond just lesson explanations.",
+        "outcome": "answered",
+        "source_ids": [
+          "octa_tutor_003",
+          "octa_tutor_010"
+        ],
+        "model_called": true,
+        "latency_ms": 6045.78191699693,
+        "error_code": null,
+        "input_tokens": 4628,
+        "output_tokens": 177,
+        "retrieved_ids": [
+          "octa_tutor_010",
+          "octa_tutor_003",
+          "octa_tutor_016",
+          "octa_tutor_012",
+          "octa_tutor_006"
+        ],
+        "selected_ids": [
+          "octa_tutor_010",
+          "octa_tutor_003"
+        ],
+        "nearest_score": 0.600556,
+        "embedding_called": true,
+        "index_embedding_calls": 0,
+        "embedding_input_tokens": 17,
+        "checker_called": true,
+        "answerer_called": true,
+        "decision_action": "supported",
+        "decision_reason": "direct_support",
+        "router_called": true,
+        "proposed_tool": "search_support_knowledge",
+        "model_calls": 3,
+        "maximum_model_calls": 3,
+        "usage_complete": true,
+        "tool_attempts": 1,
+        "tool_calls": [
+          {
+            "tool_name": "search_support_knowledge",
+            "attempt": 1,
+            "outcome": "candidates_only",
+            "error_code": null,
+            "index_preparation_attempted": true,
+            "index_embedding_calls": 0,
+            "query_embedding_attempted": true,
+            "embedding_input_tokens": 17
+          }
+        ],
+        "contact_url": null,
+        "retrieved_context_reused": true,
+        "memory_used": false,
+        "memory_before_ids": [],
+        "memory_after_ids": [
+          "octa_tutor_003",
+          "octa_tutor_010"
+        ],
+        "memory_state": "empty",
+        "plan": [
+          "check_current_input",
+          "route_and_check_current_knowledge",
+          "remember_confirmed_topic_ids"
+        ],
+        "name_context_used": false,
+        "name_context_available": false,
+        "answer_style": "normal",
+        "feedback_changed": false
+      },
+      "raw_rank_all": [
+        {
+          "id": "octa_tutor_010",
+          "score": 0.600556,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_016",
+          "score": 0.528375,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_012",
+          "score": 0.526004,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_006",
+          "score": 0.524093,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_013",
+          "score": 0.522093,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_028",
+          "score": 0.521149,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_003",
+          "score": 0.518214,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_005",
+          "score": 0.502031,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_014",
+          "score": 0.497086,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_001",
+          "score": 0.484017,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_007",
+          "score": 0.476816,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_027",
+          "score": 0.461818,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_008",
+          "score": 0.442988,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_004",
+          "score": 0.434458,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_015",
+          "score": 0.4304,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_017",
+          "score": 0.414287,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_026",
+          "score": 0.408047,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_029",
+          "score": 0.394487,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_019",
+          "score": 0.378674,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_011",
+          "score": 0.376352,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_020",
+          "score": 0.357054,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_030",
+          "score": 0.355898,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_009",
+          "score": 0.352885,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_018",
+          "score": 0.341158,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_002",
+          "score": 0.338773,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_021",
+          "score": 0.33292,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_023",
+          "score": 0.302283,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_025",
+          "score": 0.256059,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_024",
+          "score": 0.223738,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_022",
+          "score": 0.216677,
+          "answer_status": "grounded_draft"
+        }
+      ],
+      "trace": {
+        "candidates": [
+          {
+            "id": "octa_tutor_010",
+            "score": 0.600556,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_003",
+            "score": 0.518214,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_016",
+            "score": 0.528375,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_012",
+            "score": 0.526004,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_006",
+            "score": 0.524093,
+            "answer_status": "grounded_draft"
+          }
+        ],
+        "checker_proposal": {
+          "action": "supported",
+          "reason_code": "direct_support",
+          "proposed_source_ids": [
+            "octa_tutor_010",
+            "octa_tutor_003"
+          ],
+          "proposed_source_count": 2,
+          "invalid_id_format_count": 0
+        }
+      }
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "base_id": "q01_two_purposes",
+      "style": "short",
+      "question": "If the tutor already explains lessons, why should my child still do the thinking tasks?",
+      "points": {
+        "map": "Activity responses build an evolving personal map of interests/preferences.",
+        "cbse": "The map informs tutor explanations of CBSE concepts through familiar examples.",
+        "practice": "Activities also have independent value practising thinking/creating/problem-solving.",
+        "intelligences": "Each activity focuses on 2–3 of eight Natural Intelligences, not all eight at once."
+      },
+      "current": {
+        "answer": "Your child's activity answers build a personal map of their interests and favorite stories, helping the AI tutor explain CBSE concepts in ways they enjoy. Each thinking task also practices 2–3 of eight Natural Intelligences, helping your child think, create, and solve problems, which supports deeper learning beyond just explanations.",
+        "outcome": "answered",
+        "source_ids": [
+          "octa_tutor_003",
+          "octa_tutor_010"
+        ],
+        "model_called": true,
+        "latency_ms": 5695.643334009219,
+        "error_code": null,
+        "input_tokens": 4724,
+        "output_tokens": 152,
+        "retrieved_ids": [
+          "octa_tutor_010",
+          "octa_tutor_003",
+          "octa_tutor_016",
+          "octa_tutor_012",
+          "octa_tutor_006"
+        ],
+        "selected_ids": [
+          "octa_tutor_010",
+          "octa_tutor_003"
+        ],
+        "nearest_score": 0.600556,
+        "embedding_called": true,
+        "index_embedding_calls": 0,
+        "embedding_input_tokens": 17,
+        "checker_called": true,
+        "answerer_called": true,
+        "decision_action": "supported",
+        "decision_reason": "direct_support",
+        "router_called": true,
+        "proposed_tool": "search_support_knowledge",
+        "model_calls": 3,
+        "maximum_model_calls": 3,
+        "usage_complete": true,
+        "tool_attempts": 1,
+        "tool_calls": [
+          {
+            "tool_name": "search_support_knowledge",
+            "attempt": 1,
+            "outcome": "candidates_only",
+            "error_code": null,
+            "index_preparation_attempted": true,
+            "index_embedding_calls": 0,
+            "query_embedding_attempted": true,
+            "embedding_input_tokens": 17
+          }
+        ],
+        "contact_url": null,
+        "retrieved_context_reused": true,
+        "memory_used": false,
+        "memory_before_ids": [],
+        "memory_after_ids": [
+          "octa_tutor_003",
+          "octa_tutor_010"
+        ],
+        "memory_state": "available",
+        "plan": [
+          "check_current_input",
+          "route_and_check_current_knowledge",
+          "apply_short_answer_preference",
+          "remember_confirmed_topic_ids"
+        ],
+        "name_context_used": false,
+        "name_context_available": false,
+        "answer_style": "short",
+        "feedback_changed": false
+      },
+      "raw_rank_all": [
+        {
+          "id": "octa_tutor_010",
+          "score": 0.600556,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_016",
+          "score": 0.528375,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_012",
+          "score": 0.526004,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_006",
+          "score": 0.524093,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_013",
+          "score": 0.522093,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_028",
+          "score": 0.521149,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_003",
+          "score": 0.518214,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_005",
+          "score": 0.502031,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_014",
+          "score": 0.497086,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_001",
+          "score": 0.484017,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_007",
+          "score": 0.476816,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_027",
+          "score": 0.461818,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_008",
+          "score": 0.442988,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_004",
+          "score": 0.434458,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_015",
+          "score": 0.4304,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_017",
+          "score": 0.414287,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_026",
+          "score": 0.408047,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_029",
+          "score": 0.394487,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_019",
+          "score": 0.378674,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_011",
+          "score": 0.376352,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_020",
+          "score": 0.357054,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_030",
+          "score": 0.355898,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_009",
+          "score": 0.352885,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_018",
+          "score": 0.341158,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_002",
+          "score": 0.338773,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_021",
+          "score": 0.33292,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_023",
+          "score": 0.302283,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_025",
+          "score": 0.256059,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_024",
+          "score": 0.223738,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_022",
+          "score": 0.216677,
+          "answer_status": "grounded_draft"
+        }
+      ],
+      "trace": {
+        "candidates": [
+          {
+            "id": "octa_tutor_010",
+            "score": 0.600556,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_003",
+            "score": 0.518214,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_016",
+            "score": 0.528375,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_012",
+            "score": 0.526004,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_006",
+            "score": 0.524093,
+            "answer_status": "grounded_draft"
+          }
+        ],
+        "checker_proposal": {
+          "action": "supported",
+          "reason_code": "direct_support",
+          "proposed_source_ids": [
+            "octa_tutor_010",
+            "octa_tutor_003"
+          ],
+          "proposed_source_count": 2,
+          "invalid_id_format_count": 0
+        }
+      }
+    },
+    {
+      "id": "c04_activities_normal",
+      "base_id": "c04_activities",
+      "style": "normal",
+      "question": "What kinda learning activities?",
+      "points": {
+        "examples": "Higher-order thinking examples.",
+        "intelligences": "2–3 of eight per activity.",
+        "map": "Activity answers build an evolving personal map.",
+        "tutor": "Map informs tutor explanations."
+      },
+      "current": {
+        "answer": "Octakidz offers higher-order thinking activities where your child can compare ideas, explain choices, solve problems, or create their own answers. Each activity focuses on 2–3 of eight Natural Intelligences, helping your child practise thinking, creating, and problem-solving skills. Their responses also build a personal map of their interests and favourite stories, which the AI tutor uses to explain CBSE concepts in ways that connect with what your child enjoys, making learning more meaningful and easier to understand.",
+        "outcome": "answered",
+        "source_ids": [
+          "octa_tutor_010",
+          "octa_tutor_003"
+        ],
+        "model_called": true,
+        "latency_ms": 4709.6765829774085,
+        "error_code": null,
+        "input_tokens": 4731,
+        "output_tokens": 182,
+        "retrieved_ids": [
+          "octa_tutor_028",
+          "octa_tutor_010",
+          "octa_tutor_003",
+          "octa_tutor_005",
+          "octa_tutor_013"
+        ],
+        "selected_ids": [
+          "octa_tutor_010",
+          "octa_tutor_003",
+          "octa_tutor_005"
+        ],
+        "nearest_score": 0.549964,
+        "embedding_called": true,
+        "index_embedding_calls": 0,
+        "embedding_input_tokens": 5,
+        "checker_called": true,
+        "answerer_called": true,
+        "decision_action": "supported",
+        "decision_reason": "direct_support",
+        "router_called": true,
+        "proposed_tool": "search_support_knowledge",
+        "model_calls": 3,
+        "maximum_model_calls": 3,
+        "usage_complete": true,
+        "tool_attempts": 1,
+        "tool_calls": [
+          {
+            "tool_name": "search_support_knowledge",
+            "attempt": 1,
+            "outcome": "candidates_only",
+            "error_code": null,
+            "index_preparation_attempted": true,
+            "index_embedding_calls": 0,
+            "query_embedding_attempted": true,
+            "embedding_input_tokens": 5
+          }
+        ],
+        "contact_url": null,
+        "retrieved_context_reused": true,
+        "memory_used": false,
+        "memory_before_ids": [],
+        "memory_after_ids": [
+          "octa_tutor_010",
+          "octa_tutor_003"
+        ],
+        "memory_state": "empty",
+        "plan": [
+          "check_current_input",
+          "route_and_check_current_knowledge",
+          "remember_confirmed_topic_ids"
+        ],
+        "name_context_used": false,
+        "name_context_available": false,
+        "answer_style": "normal",
+        "feedback_changed": false
+      },
+      "raw_rank_all": [
+        {
+          "id": "octa_tutor_028",
+          "score": 0.549964,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_010",
+          "score": 0.541065,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_003",
+          "score": 0.524624,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_005",
+          "score": 0.507359,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_013",
+          "score": 0.485495,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_011",
+          "score": 0.47271,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_006",
+          "score": 0.439191,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_014",
+          "score": 0.43821,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_016",
+          "score": 0.437013,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_027",
+          "score": 0.436725,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_001",
+          "score": 0.432747,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_019",
+          "score": 0.418661,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_026",
+          "score": 0.416093,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_007",
+          "score": 0.411746,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_018",
+          "score": 0.40911,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_004",
+          "score": 0.382536,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_012",
+          "score": 0.381678,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_017",
+          "score": 0.381581,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_020",
+          "score": 0.36928,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_029",
+          "score": 0.357678,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_030",
+          "score": 0.355502,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_015",
+          "score": 0.347589,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_009",
+          "score": 0.346742,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_023",
+          "score": 0.345852,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_008",
+          "score": 0.343104,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_002",
+          "score": 0.304324,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_025",
+          "score": 0.269934,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_021",
+          "score": 0.243587,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_022",
+          "score": 0.239658,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_024",
+          "score": 0.203598,
+          "answer_status": "grounded_draft"
+        }
+      ],
+      "trace": {
+        "candidates": [
+          {
+            "id": "octa_tutor_028",
+            "score": 0.549964,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_010",
+            "score": 0.541065,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_003",
+            "score": 0.524624,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_005",
+            "score": 0.507359,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_013",
+            "score": 0.485495,
+            "answer_status": "grounded_draft"
+          }
+        ],
+        "checker_proposal": {
+          "action": "supported",
+          "reason_code": "direct_support",
+          "proposed_source_ids": [
+            "octa_tutor_010",
+            "octa_tutor_003",
+            "octa_tutor_005"
+          ],
+          "proposed_source_count": 3,
+          "invalid_id_format_count": 0
+        }
+      }
+    },
+    {
+      "id": "c04_activities_short",
+      "base_id": "c04_activities",
+      "style": "short",
+      "question": "What kinda learning activities?",
+      "points": {
+        "examples": "Higher-order thinking examples.",
+        "intelligences": "2–3 of eight per activity.",
+        "map": "Activity answers build an evolving personal map.",
+        "tutor": "Map informs tutor explanations."
+      },
+      "current": {
+        "answer": "Octakidz offers higher-order thinking activities where your child compares ideas, explains choices, solves problems, or creates answers. Each activity focuses on 2–3 of eight Natural Intelligences, helping your child practice thinking and problem-solving while building a personal map that guides CBSE concept explanations connected to their interests.",
+        "outcome": "answered",
+        "source_ids": [
+          "octa_tutor_010",
+          "octa_tutor_003"
+        ],
+        "model_called": true,
+        "latency_ms": 4537.744875007775,
+        "error_code": null,
+        "input_tokens": 4827,
+        "output_tokens": 147,
+        "retrieved_ids": [
+          "octa_tutor_028",
+          "octa_tutor_010",
+          "octa_tutor_003",
+          "octa_tutor_005",
+          "octa_tutor_013"
+        ],
+        "selected_ids": [
+          "octa_tutor_010",
+          "octa_tutor_003",
+          "octa_tutor_005"
+        ],
+        "nearest_score": 0.549964,
+        "embedding_called": true,
+        "index_embedding_calls": 0,
+        "embedding_input_tokens": 5,
+        "checker_called": true,
+        "answerer_called": true,
+        "decision_action": "supported",
+        "decision_reason": "direct_support",
+        "router_called": true,
+        "proposed_tool": "search_support_knowledge",
+        "model_calls": 3,
+        "maximum_model_calls": 3,
+        "usage_complete": true,
+        "tool_attempts": 1,
+        "tool_calls": [
+          {
+            "tool_name": "search_support_knowledge",
+            "attempt": 1,
+            "outcome": "candidates_only",
+            "error_code": null,
+            "index_preparation_attempted": true,
+            "index_embedding_calls": 0,
+            "query_embedding_attempted": true,
+            "embedding_input_tokens": 5
+          }
+        ],
+        "contact_url": null,
+        "retrieved_context_reused": true,
+        "memory_used": false,
+        "memory_before_ids": [],
+        "memory_after_ids": [
+          "octa_tutor_010",
+          "octa_tutor_003"
+        ],
+        "memory_state": "available",
+        "plan": [
+          "check_current_input",
+          "route_and_check_current_knowledge",
+          "apply_short_answer_preference",
+          "remember_confirmed_topic_ids"
+        ],
+        "name_context_used": false,
+        "name_context_available": false,
+        "answer_style": "short",
+        "feedback_changed": false
+      },
+      "raw_rank_all": [
+        {
+          "id": "octa_tutor_028",
+          "score": 0.549964,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_010",
+          "score": 0.541065,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_003",
+          "score": 0.524624,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_005",
+          "score": 0.507359,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_013",
+          "score": 0.485495,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_011",
+          "score": 0.47271,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_006",
+          "score": 0.439191,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_014",
+          "score": 0.43821,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_016",
+          "score": 0.437013,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_027",
+          "score": 0.436725,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_001",
+          "score": 0.432747,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_019",
+          "score": 0.418661,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_026",
+          "score": 0.416093,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_007",
+          "score": 0.411746,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_018",
+          "score": 0.40911,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_004",
+          "score": 0.382536,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_012",
+          "score": 0.381678,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_017",
+          "score": 0.381581,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_020",
+          "score": 0.36928,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_029",
+          "score": 0.357678,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_030",
+          "score": 0.355502,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_015",
+          "score": 0.347589,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_009",
+          "score": 0.346742,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_023",
+          "score": 0.345852,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_008",
+          "score": 0.343104,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_002",
+          "score": 0.304324,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_025",
+          "score": 0.269934,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_021",
+          "score": 0.243587,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_022",
+          "score": 0.239658,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_024",
+          "score": 0.203598,
+          "answer_status": "grounded_draft"
+        }
+      ],
+      "trace": {
+        "candidates": [
+          {
+            "id": "octa_tutor_028",
+            "score": 0.549964,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_010",
+            "score": 0.541065,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_003",
+            "score": 0.524624,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_005",
+            "score": 0.507359,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_013",
+            "score": 0.485495,
+            "answer_status": "grounded_draft"
+          }
+        ],
+        "checker_proposal": {
+          "action": "supported",
+          "reason_code": "direct_support",
+          "proposed_source_ids": [
+            "octa_tutor_010",
+            "octa_tutor_003",
+            "octa_tutor_005"
+          ],
+          "proposed_source_count": 3,
+          "invalid_id_format_count": 0
+        }
+      }
+    },
+    {
+      "id": "chat02_map_normal",
+      "base_id": "chat02_map",
+      "style": "normal",
+      "question": "My child's name is Leela. My email is parent@example.invalid. How do Octakidz activities build a personal map for the tutor?",
+      "points": {
+        "map": "Activity responses build an evolving map of interests/preferences.",
+        "cbse": "The tutor uses the map for familiar CBSE examples.",
+        "practice": "Explain separate thinking practice including 2–3 of eight when describing the activities’ overall role."
+      },
+      "current": {
+        "answer": "Octakidz activities help build an evolving personal map by gathering clues from your child's answers about what they like, dislike, and how they approach challenges. This map includes their favourite subjects, stories, and interests, allowing the hyperpersonalised AI tutor to connect CBSE concepts with things your child enjoys, making learning more meaningful and easier to understand. Each activity also focuses on 2–3 of eight Natural Intelligences, giving your child practice in thinking, creating, and solving problems alongside building this personal map.",
+        "outcome": "answered",
+        "source_ids": [
+          "octa_tutor_003",
+          "octa_tutor_004",
+          "octa_tutor_005"
+        ],
+        "model_called": true,
+        "latency_ms": 5590.54320800351,
+        "error_code": null,
+        "input_tokens": 4852,
+        "output_tokens": 216,
+        "retrieved_ids": [
+          "octa_tutor_005",
+          "octa_tutor_003",
+          "octa_tutor_027",
+          "octa_tutor_004",
+          "octa_tutor_014"
+        ],
+        "selected_ids": [
+          "octa_tutor_005",
+          "octa_tutor_003",
+          "octa_tutor_004"
+        ],
+        "nearest_score": 0.63851,
+        "embedding_called": true,
+        "index_embedding_calls": 0,
+        "embedding_input_tokens": 30,
+        "checker_called": true,
+        "answerer_called": true,
+        "decision_action": "supported",
+        "decision_reason": "direct_support",
+        "router_called": true,
+        "proposed_tool": "search_support_knowledge",
+        "model_calls": 3,
+        "maximum_model_calls": 3,
+        "usage_complete": true,
+        "tool_attempts": 1,
+        "tool_calls": [
+          {
+            "tool_name": "search_support_knowledge",
+            "attempt": 1,
+            "outcome": "candidates_only",
+            "error_code": null,
+            "index_preparation_attempted": true,
+            "index_embedding_calls": 0,
+            "query_embedding_attempted": true,
+            "embedding_input_tokens": 30
+          }
+        ],
+        "contact_url": null,
+        "retrieved_context_reused": true,
+        "memory_used": false,
+        "memory_before_ids": [],
+        "memory_after_ids": [
+          "octa_tutor_003",
+          "octa_tutor_004",
+          "octa_tutor_005"
+        ],
+        "memory_state": "empty",
+        "plan": [
+          "check_current_input",
+          "route_and_check_current_knowledge",
+          "remember_confirmed_topic_ids"
+        ],
+        "name_context_used": false,
+        "name_context_available": true,
+        "answer_style": "normal",
+        "feedback_changed": false
+      },
+      "raw_rank_all": [
+        {
+          "id": "octa_tutor_005",
+          "score": 0.63851,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_027",
+          "score": 0.596496,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_004",
+          "score": 0.58,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_014",
+          "score": 0.568536,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_001",
+          "score": 0.565144,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_020",
+          "score": 0.557001,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_017",
+          "score": 0.552993,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_030",
+          "score": 0.55072,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_023",
+          "score": 0.540836,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_021",
+          "score": 0.528218,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_015",
+          "score": 0.514755,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_026",
+          "score": 0.50587,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_029",
+          "score": 0.500157,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_003",
+          "score": 0.489948,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_024",
+          "score": 0.489447,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_006",
+          "score": 0.488728,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_002",
+          "score": 0.485341,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_022",
+          "score": 0.483703,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_013",
+          "score": 0.477321,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_012",
+          "score": 0.469941,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_028",
+          "score": 0.460376,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_018",
+          "score": 0.46006,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_025",
+          "score": 0.454587,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_007",
+          "score": 0.434549,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_019",
+          "score": 0.427453,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_016",
+          "score": 0.419236,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_010",
+          "score": 0.413454,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_009",
+          "score": 0.34828,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_011",
+          "score": 0.343393,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_008",
+          "score": 0.320019,
+          "answer_status": "grounded_draft"
+        }
+      ],
+      "trace": {
+        "candidates": [
+          {
+            "id": "octa_tutor_005",
+            "score": 0.63851,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_003",
+            "score": 0.489948,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_027",
+            "score": 0.596496,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_004",
+            "score": 0.58,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_014",
+            "score": 0.568536,
+            "answer_status": "grounded_draft"
+          }
+        ],
+        "checker_proposal": {
+          "action": "supported",
+          "reason_code": "direct_support",
+          "proposed_source_ids": [
+            "octa_tutor_005",
+            "octa_tutor_003",
+            "octa_tutor_004"
+          ],
+          "proposed_source_count": 3,
+          "invalid_id_format_count": 0
+        }
+      }
+    },
+    {
+      "id": "chat02_map_short",
+      "base_id": "chat02_map",
+      "style": "short",
+      "question": "My child's name is Leela. My email is parent@example.invalid. How do Octakidz activities build a personal map for the tutor?",
+      "points": {
+        "map": "Activity responses build an evolving map of interests/preferences.",
+        "cbse": "The tutor uses the map for familiar CBSE examples.",
+        "practice": "Explain separate thinking practice including 2–3 of eight when describing the activities’ overall role."
+      },
+      "current": {
+        "answer": "Octakidz activities help build an evolving personal map by collecting your child's answers about their likes, dislikes, and favorite stories. This map guides the AI tutor to explain CBSE concepts using examples your child enjoys, making learning more meaningful. Each activity also practices 2–3 of eight Natural Intelligences, helping your child think and solve problems.",
+        "outcome": "answered",
+        "source_ids": [
+          "octa_tutor_003",
+          "octa_tutor_004",
+          "octa_tutor_005"
+        ],
+        "model_called": true,
+        "latency_ms": 5643.585125013487,
+        "error_code": null,
+        "input_tokens": 4948,
+        "output_tokens": 183,
+        "retrieved_ids": [
+          "octa_tutor_005",
+          "octa_tutor_003",
+          "octa_tutor_027",
+          "octa_tutor_004",
+          "octa_tutor_014"
+        ],
+        "selected_ids": [
+          "octa_tutor_005",
+          "octa_tutor_004",
+          "octa_tutor_003"
+        ],
+        "nearest_score": 0.63851,
+        "embedding_called": true,
+        "index_embedding_calls": 0,
+        "embedding_input_tokens": 30,
+        "checker_called": true,
+        "answerer_called": true,
+        "decision_action": "supported",
+        "decision_reason": "direct_support",
+        "router_called": true,
+        "proposed_tool": "search_support_knowledge",
+        "model_calls": 3,
+        "maximum_model_calls": 3,
+        "usage_complete": true,
+        "tool_attempts": 1,
+        "tool_calls": [
+          {
+            "tool_name": "search_support_knowledge",
+            "attempt": 1,
+            "outcome": "candidates_only",
+            "error_code": null,
+            "index_preparation_attempted": true,
+            "index_embedding_calls": 0,
+            "query_embedding_attempted": true,
+            "embedding_input_tokens": 30
+          }
+        ],
+        "contact_url": null,
+        "retrieved_context_reused": true,
+        "memory_used": false,
+        "memory_before_ids": [],
+        "memory_after_ids": [
+          "octa_tutor_003",
+          "octa_tutor_004",
+          "octa_tutor_005"
+        ],
+        "memory_state": "available",
+        "plan": [
+          "check_current_input",
+          "route_and_check_current_knowledge",
+          "apply_short_answer_preference",
+          "remember_confirmed_topic_ids"
+        ],
+        "name_context_used": false,
+        "name_context_available": true,
+        "answer_style": "short",
+        "feedback_changed": false
+      },
+      "raw_rank_all": [
+        {
+          "id": "octa_tutor_005",
+          "score": 0.63851,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_027",
+          "score": 0.596496,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_004",
+          "score": 0.58,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_014",
+          "score": 0.568536,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_001",
+          "score": 0.565144,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_020",
+          "score": 0.557001,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_017",
+          "score": 0.552993,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_030",
+          "score": 0.55072,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_023",
+          "score": 0.540836,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_021",
+          "score": 0.528218,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_015",
+          "score": 0.514755,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_026",
+          "score": 0.50587,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_029",
+          "score": 0.500157,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_003",
+          "score": 0.489948,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_024",
+          "score": 0.489447,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_006",
+          "score": 0.488728,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_002",
+          "score": 0.485341,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_022",
+          "score": 0.483703,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_013",
+          "score": 0.477321,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_012",
+          "score": 0.469941,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_028",
+          "score": 0.460376,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_018",
+          "score": 0.46006,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_025",
+          "score": 0.454587,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_007",
+          "score": 0.434549,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_019",
+          "score": 0.427453,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_016",
+          "score": 0.419236,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_010",
+          "score": 0.413454,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_009",
+          "score": 0.34828,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_011",
+          "score": 0.343393,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_008",
+          "score": 0.320019,
+          "answer_status": "grounded_draft"
+        }
+      ],
+      "trace": {
+        "candidates": [
+          {
+            "id": "octa_tutor_005",
+            "score": 0.63851,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_003",
+            "score": 0.489948,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_027",
+            "score": 0.596496,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_004",
+            "score": 0.58,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_014",
+            "score": 0.568536,
+            "answer_status": "grounded_draft"
+          }
+        ],
+        "checker_proposal": {
+          "action": "supported",
+          "reason_code": "direct_support",
+          "proposed_source_ids": [
+            "octa_tutor_005",
+            "octa_tutor_004",
+            "octa_tutor_003"
+          ],
+          "proposed_source_count": 3,
+          "invalid_id_format_count": 0
+        }
+      }
+    },
+    {
+      "id": "c03_adventure_normal",
+      "base_id": "c03_adventure",
+      "style": "normal",
+      "question": "How would this tutor change an explanation for a child who loves adventure stories?",
+      "points": {
+        "story": "Illustrative adventure context.",
+        "cbse": "Connect to CBSE/school concepts.",
+        "no_assessment": "No claim of assessing a real child."
+      },
+      "current": {
+        "answer": "If your child loves adventure stories, the tutor would explain a school concept by using an example from an adventure tale they enjoy. For instance, if the concept is about fractions, the tutor might describe dividing treasure equally among explorers, showing how each share represents a part of the whole. This way, the subject idea stays the same, but the explanation connects with your child's interest in adventure, making learning more engaging and familiar. The tutor's evolving personal map helps it choose such examples based on your child's preferences, which can change over time.",
+        "outcome": "answered",
+        "source_ids": [
+          "octa_tutor_028",
+          "octa_tutor_004"
+        ],
+        "model_called": true,
+        "latency_ms": 5538.584042020375,
+        "error_code": null,
+        "input_tokens": 4391,
+        "output_tokens": 194,
+        "retrieved_ids": [
+          "octa_tutor_006",
+          "octa_tutor_028",
+          "octa_tutor_005",
+          "octa_tutor_004",
+          "octa_tutor_012"
+        ],
+        "selected_ids": [
+          "octa_tutor_028",
+          "octa_tutor_004"
+        ],
+        "nearest_score": 0.617114,
+        "embedding_called": true,
+        "index_embedding_calls": 0,
+        "embedding_input_tokens": 15,
+        "checker_called": true,
+        "answerer_called": true,
+        "decision_action": "supported",
+        "decision_reason": "direct_support",
+        "router_called": true,
+        "proposed_tool": "search_support_knowledge",
+        "model_calls": 3,
+        "maximum_model_calls": 3,
+        "usage_complete": true,
+        "tool_attempts": 1,
+        "tool_calls": [
+          {
+            "tool_name": "search_support_knowledge",
+            "attempt": 1,
+            "outcome": "candidates_only",
+            "error_code": null,
+            "index_preparation_attempted": true,
+            "index_embedding_calls": 0,
+            "query_embedding_attempted": true,
+            "embedding_input_tokens": 15
+          }
+        ],
+        "contact_url": null,
+        "retrieved_context_reused": true,
+        "memory_used": false,
+        "memory_before_ids": [],
+        "memory_after_ids": [
+          "octa_tutor_028",
+          "octa_tutor_004"
+        ],
+        "memory_state": "empty",
+        "plan": [
+          "check_current_input",
+          "route_and_check_current_knowledge",
+          "remember_confirmed_topic_ids"
+        ],
+        "name_context_used": false,
+        "name_context_available": false,
+        "answer_style": "normal",
+        "feedback_changed": false
+      },
+      "raw_rank_all": [
+        {
+          "id": "octa_tutor_006",
+          "score": 0.617114,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_028",
+          "score": 0.573255,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_005",
+          "score": 0.517343,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_004",
+          "score": 0.51232,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_012",
+          "score": 0.510062,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_008",
+          "score": 0.507364,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_027",
+          "score": 0.480052,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_003",
+          "score": 0.472113,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_007",
+          "score": 0.46472,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_014",
+          "score": 0.452105,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_016",
+          "score": 0.450307,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_010",
+          "score": 0.440695,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_001",
+          "score": 0.4263,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_013",
+          "score": 0.416279,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_030",
+          "score": 0.408428,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_029",
+          "score": 0.403709,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_017",
+          "score": 0.361075,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_015",
+          "score": 0.359765,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_002",
+          "score": 0.355701,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_026",
+          "score": 0.349905,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_021",
+          "score": 0.338764,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_019",
+          "score": 0.314153,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_009",
+          "score": 0.31408,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_023",
+          "score": 0.311484,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_020",
+          "score": 0.307475,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_011",
+          "score": 0.306962,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_018",
+          "score": 0.285836,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_024",
+          "score": 0.259368,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_022",
+          "score": 0.235432,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_025",
+          "score": 0.226648,
+          "answer_status": "owner_details_needed"
+        }
+      ],
+      "trace": {
+        "candidates": [
+          {
+            "id": "octa_tutor_006",
+            "score": 0.617114,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_028",
+            "score": 0.573255,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_005",
+            "score": 0.517343,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_004",
+            "score": 0.51232,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_012",
+            "score": 0.510062,
+            "answer_status": "grounded_draft"
+          }
+        ],
+        "checker_proposal": {
+          "action": "supported",
+          "reason_code": "direct_support",
+          "proposed_source_ids": [
+            "octa_tutor_028",
+            "octa_tutor_004"
+          ],
+          "proposed_source_count": 2,
+          "invalid_id_format_count": 0
+        }
+      }
+    },
+    {
+      "id": "c03_adventure_short",
+      "base_id": "c03_adventure",
+      "style": "short",
+      "question": "How would this tutor change an explanation for a child who loves adventure stories?",
+      "points": {
+        "story": "Illustrative adventure context.",
+        "cbse": "Connect to CBSE/school concepts.",
+        "no_assessment": "No claim of assessing a real child."
+      },
+      "current": {
+        "answer": "If your child loves adventure stories, the tutor would explain a school concept using an adventure-themed example. For instance, it might describe fractions as parts of a treasure map divided into equal sections, making the idea familiar and engaging while keeping the subject the same. This approach helps connect learning with what your child enjoys.",
+        "outcome": "answered",
+        "source_ids": [
+          "octa_tutor_028"
+        ],
+        "model_called": true,
+        "latency_ms": 4791.019457974471,
+        "error_code": null,
+        "input_tokens": 4487,
+        "output_tokens": 142,
+        "retrieved_ids": [
+          "octa_tutor_006",
+          "octa_tutor_028",
+          "octa_tutor_005",
+          "octa_tutor_004",
+          "octa_tutor_012"
+        ],
+        "selected_ids": [
+          "octa_tutor_028",
+          "octa_tutor_004"
+        ],
+        "nearest_score": 0.617114,
+        "embedding_called": true,
+        "index_embedding_calls": 0,
+        "embedding_input_tokens": 15,
+        "checker_called": true,
+        "answerer_called": true,
+        "decision_action": "supported",
+        "decision_reason": "direct_support",
+        "router_called": true,
+        "proposed_tool": "search_support_knowledge",
+        "model_calls": 3,
+        "maximum_model_calls": 3,
+        "usage_complete": true,
+        "tool_attempts": 1,
+        "tool_calls": [
+          {
+            "tool_name": "search_support_knowledge",
+            "attempt": 1,
+            "outcome": "candidates_only",
+            "error_code": null,
+            "index_preparation_attempted": true,
+            "index_embedding_calls": 0,
+            "query_embedding_attempted": true,
+            "embedding_input_tokens": 15
+          }
+        ],
+        "contact_url": null,
+        "retrieved_context_reused": true,
+        "memory_used": false,
+        "memory_before_ids": [],
+        "memory_after_ids": [
+          "octa_tutor_028"
+        ],
+        "memory_state": "available",
+        "plan": [
+          "check_current_input",
+          "route_and_check_current_knowledge",
+          "apply_short_answer_preference",
+          "remember_confirmed_topic_ids"
+        ],
+        "name_context_used": false,
+        "name_context_available": false,
+        "answer_style": "short",
+        "feedback_changed": false
+      },
+      "raw_rank_all": [
+        {
+          "id": "octa_tutor_006",
+          "score": 0.617114,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_028",
+          "score": 0.573255,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_005",
+          "score": 0.517343,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_004",
+          "score": 0.51232,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_012",
+          "score": 0.510062,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_008",
+          "score": 0.507364,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_027",
+          "score": 0.480052,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_003",
+          "score": 0.472113,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_007",
+          "score": 0.46472,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_014",
+          "score": 0.452105,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_016",
+          "score": 0.450307,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_010",
+          "score": 0.440695,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_001",
+          "score": 0.4263,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_013",
+          "score": 0.416279,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_030",
+          "score": 0.408428,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_029",
+          "score": 0.403709,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_017",
+          "score": 0.361075,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_015",
+          "score": 0.359765,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_002",
+          "score": 0.355701,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_026",
+          "score": 0.349905,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_021",
+          "score": 0.338764,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_019",
+          "score": 0.314153,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_009",
+          "score": 0.31408,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_023",
+          "score": 0.311484,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_020",
+          "score": 0.307475,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_011",
+          "score": 0.306962,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_018",
+          "score": 0.285836,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_024",
+          "score": 0.259368,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_022",
+          "score": 0.235432,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_025",
+          "score": 0.226648,
+          "answer_status": "owner_details_needed"
+        }
+      ],
+      "trace": {
+        "candidates": [
+          {
+            "id": "octa_tutor_006",
+            "score": 0.617114,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_028",
+            "score": 0.573255,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_005",
+            "score": 0.517343,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_004",
+            "score": 0.51232,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_012",
+            "score": 0.510062,
+            "answer_status": "grounded_draft"
+          }
+        ],
+        "checker_proposal": {
+          "action": "supported",
+          "reason_code": "direct_support",
+          "proposed_source_ids": [
+            "octa_tutor_028",
+            "octa_tutor_004"
+          ],
+          "proposed_source_count": 2,
+          "invalid_id_format_count": 0
+        }
+      }
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "base_id": "q04_fractions_example",
+      "style": "normal",
+      "question": "What would using a football story to introduce fractions look like in Octakidz?",
+      "points": {
+        "illustration": "Give a short, clearly illustrative story/equal-parts example rather than a full lesson.",
+        "same_concept": "The fraction/equal-parts concept stays the same while its example connects to an interest."
+      },
+      "current": {
+        "answer": "Imagine a football story where a team has a pizza to share after a match. The pizza is cut into 8 equal slices, and the story shows how some players eat 3 slices while others eat 5. This helps your child see fractions as parts of a whole — like 3 out of 8 slices — making the math idea more familiar and fun. Octakidz uses stories like this to connect CBSE concepts with what your child enjoys, while also practicing thinking skills through the activity.",
+        "outcome": "answered",
+        "source_ids": [
+          "octa_tutor_008",
+          "octa_tutor_014",
+          "octa_tutor_001"
+        ],
+        "model_called": true,
+        "latency_ms": 4759.8764580034185,
+        "error_code": null,
+        "input_tokens": 4555,
+        "output_tokens": 202,
+        "retrieved_ids": [
+          "octa_tutor_008",
+          "octa_tutor_005",
+          "octa_tutor_002",
+          "octa_tutor_014",
+          "octa_tutor_001"
+        ],
+        "selected_ids": [
+          "octa_tutor_008",
+          "octa_tutor_014",
+          "octa_tutor_001"
+        ],
+        "nearest_score": 0.483496,
+        "embedding_called": true,
+        "index_embedding_calls": 0,
+        "embedding_input_tokens": 17,
+        "checker_called": true,
+        "answerer_called": true,
+        "decision_action": "supported",
+        "decision_reason": "direct_support",
+        "router_called": true,
+        "proposed_tool": "search_support_knowledge",
+        "model_calls": 3,
+        "maximum_model_calls": 3,
+        "usage_complete": true,
+        "tool_attempts": 1,
+        "tool_calls": [
+          {
+            "tool_name": "search_support_knowledge",
+            "attempt": 1,
+            "outcome": "candidates_only",
+            "error_code": null,
+            "index_preparation_attempted": true,
+            "index_embedding_calls": 0,
+            "query_embedding_attempted": true,
+            "embedding_input_tokens": 17
+          }
+        ],
+        "contact_url": null,
+        "retrieved_context_reused": true,
+        "memory_used": false,
+        "memory_before_ids": [],
+        "memory_after_ids": [
+          "octa_tutor_008",
+          "octa_tutor_014",
+          "octa_tutor_001"
+        ],
+        "memory_state": "empty",
+        "plan": [
+          "check_current_input",
+          "route_and_check_current_knowledge",
+          "remember_confirmed_topic_ids"
+        ],
+        "name_context_used": false,
+        "name_context_available": false,
+        "answer_style": "normal",
+        "feedback_changed": false
+      },
+      "raw_rank_all": [
+        {
+          "id": "octa_tutor_008",
+          "score": 0.483496,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_005",
+          "score": 0.476872,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_002",
+          "score": 0.457837,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_014",
+          "score": 0.437194,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_001",
+          "score": 0.4039,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_017",
+          "score": 0.403546,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_015",
+          "score": 0.386546,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_027",
+          "score": 0.378689,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_020",
+          "score": 0.375249,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_026",
+          "score": 0.370092,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_029",
+          "score": 0.352747,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_030",
+          "score": 0.341457,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_022",
+          "score": 0.321791,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_006",
+          "score": 0.29897,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_021",
+          "score": 0.297944,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_010",
+          "score": 0.286377,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_016",
+          "score": 0.278599,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_025",
+          "score": 0.266189,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_011",
+          "score": 0.266061,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_003",
+          "score": 0.2612,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_028",
+          "score": 0.260935,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_004",
+          "score": 0.236746,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_023",
+          "score": 0.229996,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_013",
+          "score": 0.219349,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_019",
+          "score": 0.218281,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_007",
+          "score": 0.204159,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_012",
+          "score": 0.19047,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_018",
+          "score": 0.182705,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_009",
+          "score": 0.171803,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_024",
+          "score": 0.113374,
+          "answer_status": "grounded_draft"
+        }
+      ],
+      "trace": {
+        "candidates": [
+          {
+            "id": "octa_tutor_008",
+            "score": 0.483496,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_005",
+            "score": 0.476872,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_002",
+            "score": 0.457837,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_014",
+            "score": 0.437194,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_001",
+            "score": 0.4039,
+            "answer_status": "grounded_draft"
+          }
+        ],
+        "checker_proposal": {
+          "action": "supported",
+          "reason_code": "direct_support",
+          "proposed_source_ids": [
+            "octa_tutor_008",
+            "octa_tutor_014",
+            "octa_tutor_001"
+          ],
+          "proposed_source_count": 3,
+          "invalid_id_format_count": 0
+        }
+      }
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "base_id": "q04_fractions_example",
+      "style": "short",
+      "question": "What would using a football story to introduce fractions look like in Octakidz?",
+      "points": {
+        "illustration": "Give a short, clearly illustrative story/equal-parts example rather than a full lesson.",
+        "same_concept": "The fraction/equal-parts concept stays the same while its example connects to an interest."
+      },
+      "current": {
+        "answer": "Using a football story to explain fractions might show a team sharing a pizza equally after a match, with each slice representing a fraction of the whole. This connects the CBSE fraction concept to something your child enjoys, making it easier to understand while also practicing thinking skills through the activity.",
+        "outcome": "answered",
+        "source_ids": [
+          "octa_tutor_008",
+          "octa_tutor_014",
+          "octa_tutor_001"
+        ],
+        "model_called": true,
+        "latency_ms": 5573.695333005162,
+        "error_code": null,
+        "input_tokens": 4651,
+        "output_tokens": 158,
+        "retrieved_ids": [
+          "octa_tutor_008",
+          "octa_tutor_005",
+          "octa_tutor_002",
+          "octa_tutor_014",
+          "octa_tutor_001"
+        ],
+        "selected_ids": [
+          "octa_tutor_008",
+          "octa_tutor_014",
+          "octa_tutor_001"
+        ],
+        "nearest_score": 0.483496,
+        "embedding_called": true,
+        "index_embedding_calls": 0,
+        "embedding_input_tokens": 17,
+        "checker_called": true,
+        "answerer_called": true,
+        "decision_action": "supported",
+        "decision_reason": "direct_support",
+        "router_called": true,
+        "proposed_tool": "search_support_knowledge",
+        "model_calls": 3,
+        "maximum_model_calls": 3,
+        "usage_complete": true,
+        "tool_attempts": 1,
+        "tool_calls": [
+          {
+            "tool_name": "search_support_knowledge",
+            "attempt": 1,
+            "outcome": "candidates_only",
+            "error_code": null,
+            "index_preparation_attempted": true,
+            "index_embedding_calls": 0,
+            "query_embedding_attempted": true,
+            "embedding_input_tokens": 17
+          }
+        ],
+        "contact_url": null,
+        "retrieved_context_reused": true,
+        "memory_used": false,
+        "memory_before_ids": [],
+        "memory_after_ids": [
+          "octa_tutor_008",
+          "octa_tutor_014",
+          "octa_tutor_001"
+        ],
+        "memory_state": "available",
+        "plan": [
+          "check_current_input",
+          "route_and_check_current_knowledge",
+          "apply_short_answer_preference",
+          "remember_confirmed_topic_ids"
+        ],
+        "name_context_used": false,
+        "name_context_available": false,
+        "answer_style": "short",
+        "feedback_changed": false
+      },
+      "raw_rank_all": [
+        {
+          "id": "octa_tutor_008",
+          "score": 0.483496,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_005",
+          "score": 0.476872,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_002",
+          "score": 0.457837,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_014",
+          "score": 0.437194,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_001",
+          "score": 0.4039,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_017",
+          "score": 0.403546,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_015",
+          "score": 0.386546,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_027",
+          "score": 0.378689,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_020",
+          "score": 0.375249,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_026",
+          "score": 0.370092,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_029",
+          "score": 0.352747,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_030",
+          "score": 0.341457,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_022",
+          "score": 0.321791,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_006",
+          "score": 0.29897,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_021",
+          "score": 0.297944,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_010",
+          "score": 0.286377,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_016",
+          "score": 0.278599,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_025",
+          "score": 0.266189,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_011",
+          "score": 0.266061,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_003",
+          "score": 0.2612,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_028",
+          "score": 0.260935,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_004",
+          "score": 0.236746,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_023",
+          "score": 0.229996,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_013",
+          "score": 0.219349,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_019",
+          "score": 0.218281,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_007",
+          "score": 0.204159,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_012",
+          "score": 0.19047,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_018",
+          "score": 0.182705,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_009",
+          "score": 0.171803,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_024",
+          "score": 0.113374,
+          "answer_status": "grounded_draft"
+        }
+      ],
+      "trace": {
+        "candidates": [
+          {
+            "id": "octa_tutor_008",
+            "score": 0.483496,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_005",
+            "score": 0.476872,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_002",
+            "score": 0.457837,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_014",
+            "score": 0.437194,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_001",
+            "score": 0.4039,
+            "answer_status": "grounded_draft"
+          }
+        ],
+        "checker_proposal": {
+          "action": "supported",
+          "reason_code": "direct_support",
+          "proposed_source_ids": [
+            "octa_tutor_008",
+            "octa_tutor_014",
+            "octa_tutor_001"
+          ],
+          "proposed_source_count": 3,
+          "invalid_id_format_count": 0
+        }
+      }
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "base_id": "q10_parent_help",
+      "style": "normal",
+      "question": "Should I give my child the answers to the Octakidz thinking tasks, or just help with instructions?",
+      "points": {
+        "own_work": "Leave the ideas/answers to the child.",
+        "gentle_help": "Help with instructions or gentle questions rather than supplying answers.",
+        "team": "Offer team guidance if the child remains stuck or the parent needs help."
+      },
+      "current": {
+        "answer": "It's best to give your child space to try their own ideas when doing Octakidz activities. You can help by explaining the instructions clearly and asking gentle questions about what they are thinking, but let their answers be their own. This way, their responses help the tutor understand them better. If your child gets stuck or you want some guidance, the Octakidz team is available to help.",
+        "outcome": "answered",
+        "source_ids": [
+          "octa_tutor_016"
+        ],
+        "model_called": true,
+        "latency_ms": 5536.193624982843,
+        "error_code": null,
+        "input_tokens": 4286,
+        "output_tokens": 157,
+        "retrieved_ids": [
+          "octa_tutor_016",
+          "octa_tutor_005",
+          "octa_tutor_015",
+          "octa_tutor_014",
+          "octa_tutor_002"
+        ],
+        "selected_ids": [
+          "octa_tutor_016"
+        ],
+        "nearest_score": 0.65186,
+        "embedding_called": true,
+        "index_embedding_calls": 0,
+        "embedding_input_tokens": 22,
+        "checker_called": true,
+        "answerer_called": true,
+        "decision_action": "supported",
+        "decision_reason": "direct_support",
+        "router_called": true,
+        "proposed_tool": "search_support_knowledge",
+        "model_calls": 3,
+        "maximum_model_calls": 3,
+        "usage_complete": true,
+        "tool_attempts": 1,
+        "tool_calls": [
+          {
+            "tool_name": "search_support_knowledge",
+            "attempt": 1,
+            "outcome": "candidates_only",
+            "error_code": null,
+            "index_preparation_attempted": true,
+            "index_embedding_calls": 0,
+            "query_embedding_attempted": true,
+            "embedding_input_tokens": 22
+          }
+        ],
+        "contact_url": null,
+        "retrieved_context_reused": true,
+        "memory_used": false,
+        "memory_before_ids": [],
+        "memory_after_ids": [
+          "octa_tutor_016"
+        ],
+        "memory_state": "empty",
+        "plan": [
+          "check_current_input",
+          "route_and_check_current_knowledge",
+          "remember_confirmed_topic_ids"
+        ],
+        "name_context_used": false,
+        "name_context_available": false,
+        "answer_style": "normal",
+        "feedback_changed": false
+      },
+      "raw_rank_all": [
+        {
+          "id": "octa_tutor_016",
+          "score": 0.65186,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_005",
+          "score": 0.646267,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_015",
+          "score": 0.601845,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_014",
+          "score": 0.597117,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_002",
+          "score": 0.59509,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_001",
+          "score": 0.584311,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_017",
+          "score": 0.575881,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_026",
+          "score": 0.572504,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_029",
+          "score": 0.554577,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_027",
+          "score": 0.553193,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_010",
+          "score": 0.523201,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_030",
+          "score": 0.503084,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_003",
+          "score": 0.48784,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_020",
+          "score": 0.476997,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_022",
+          "score": 0.451073,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_011",
+          "score": 0.448949,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_012",
+          "score": 0.444239,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_025",
+          "score": 0.442519,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_013",
+          "score": 0.441577,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_006",
+          "score": 0.427019,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_021",
+          "score": 0.42663,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_028",
+          "score": 0.405295,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_008",
+          "score": 0.404044,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_004",
+          "score": 0.39309,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_007",
+          "score": 0.363788,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_019",
+          "score": 0.362648,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_009",
+          "score": 0.342047,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_023",
+          "score": 0.312484,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_024",
+          "score": 0.304636,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_018",
+          "score": 0.29326,
+          "answer_status": "owner_details_needed"
+        }
+      ],
+      "trace": {
+        "candidates": [
+          {
+            "id": "octa_tutor_016",
+            "score": 0.65186,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_005",
+            "score": 0.646267,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_015",
+            "score": 0.601845,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_014",
+            "score": 0.597117,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_002",
+            "score": 0.59509,
+            "answer_status": "grounded_draft"
+          }
+        ],
+        "checker_proposal": {
+          "action": "supported",
+          "reason_code": "direct_support",
+          "proposed_source_ids": [
+            "octa_tutor_016"
+          ],
+          "proposed_source_count": 1,
+          "invalid_id_format_count": 0
+        }
+      }
+    },
+    {
+      "id": "q10_parent_help_short",
+      "base_id": "q10_parent_help",
+      "style": "short",
+      "question": "Should I give my child the answers to the Octakidz thinking tasks, or just help with instructions?",
+      "points": {
+        "own_work": "Leave the ideas/answers to the child.",
+        "gentle_help": "Help with instructions or gentle questions rather than supplying answers.",
+        "team": "Offer team guidance if the child remains stuck or the parent needs help."
+      },
+      "current": {
+        "answer": "It's best to let your child try their own ideas and keep their answers their own. You can help by explaining the instructions and gently asking what they're thinking. This way, their responses help us understand them better. If they get stuck or you want guidance, our team is here to help.",
+        "outcome": "answered",
+        "source_ids": [
+          "octa_tutor_016"
+        ],
+        "model_called": true,
+        "latency_ms": 4565.053957980126,
+        "error_code": null,
+        "input_tokens": 4382,
+        "output_tokens": 137,
+        "retrieved_ids": [
+          "octa_tutor_016",
+          "octa_tutor_005",
+          "octa_tutor_015",
+          "octa_tutor_014",
+          "octa_tutor_002"
+        ],
+        "selected_ids": [
+          "octa_tutor_016"
+        ],
+        "nearest_score": 0.65186,
+        "embedding_called": true,
+        "index_embedding_calls": 0,
+        "embedding_input_tokens": 22,
+        "checker_called": true,
+        "answerer_called": true,
+        "decision_action": "supported",
+        "decision_reason": "direct_support",
+        "router_called": true,
+        "proposed_tool": "search_support_knowledge",
+        "model_calls": 3,
+        "maximum_model_calls": 3,
+        "usage_complete": true,
+        "tool_attempts": 1,
+        "tool_calls": [
+          {
+            "tool_name": "search_support_knowledge",
+            "attempt": 1,
+            "outcome": "candidates_only",
+            "error_code": null,
+            "index_preparation_attempted": true,
+            "index_embedding_calls": 0,
+            "query_embedding_attempted": true,
+            "embedding_input_tokens": 22
+          }
+        ],
+        "contact_url": null,
+        "retrieved_context_reused": true,
+        "memory_used": false,
+        "memory_before_ids": [],
+        "memory_after_ids": [
+          "octa_tutor_016"
+        ],
+        "memory_state": "available",
+        "plan": [
+          "check_current_input",
+          "route_and_check_current_knowledge",
+          "apply_short_answer_preference",
+          "remember_confirmed_topic_ids"
+        ],
+        "name_context_used": false,
+        "name_context_available": false,
+        "answer_style": "short",
+        "feedback_changed": false
+      },
+      "raw_rank_all": [
+        {
+          "id": "octa_tutor_016",
+          "score": 0.65186,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_005",
+          "score": 0.646267,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_015",
+          "score": 0.601845,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_014",
+          "score": 0.597117,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_002",
+          "score": 0.59509,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_001",
+          "score": 0.584311,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_017",
+          "score": 0.575881,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_026",
+          "score": 0.572504,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_029",
+          "score": 0.554577,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_027",
+          "score": 0.553193,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_010",
+          "score": 0.523201,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_030",
+          "score": 0.503084,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_003",
+          "score": 0.48784,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_020",
+          "score": 0.476997,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_022",
+          "score": 0.451073,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_011",
+          "score": 0.448949,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_012",
+          "score": 0.444239,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_025",
+          "score": 0.442519,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_013",
+          "score": 0.441577,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_006",
+          "score": 0.427019,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_021",
+          "score": 0.42663,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_028",
+          "score": 0.405295,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_008",
+          "score": 0.404044,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_004",
+          "score": 0.39309,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_007",
+          "score": 0.363788,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_019",
+          "score": 0.362648,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_009",
+          "score": 0.342047,
+          "answer_status": "owner_details_needed"
+        },
+        {
+          "id": "octa_tutor_023",
+          "score": 0.312484,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_024",
+          "score": 0.304636,
+          "answer_status": "grounded_draft"
+        },
+        {
+          "id": "octa_tutor_018",
+          "score": 0.29326,
+          "answer_status": "owner_details_needed"
+        }
+      ],
+      "trace": {
+        "candidates": [
+          {
+            "id": "octa_tutor_016",
+            "score": 0.65186,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_005",
+            "score": 0.646267,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_015",
+            "score": 0.601845,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_014",
+            "score": 0.597117,
+            "answer_status": "grounded_draft"
+          },
+          {
+            "id": "octa_tutor_002",
+            "score": 0.59509,
+            "answer_status": "grounded_draft"
+          }
+        ],
+        "checker_proposal": {
+          "action": "supported",
+          "reason_code": "direct_support",
+          "proposed_source_ids": [
+            "octa_tutor_016"
+          ],
+          "proposed_source_count": 1,
+          "invalid_id_format_count": 0
+        }
+      }
+    }
+  ],
+  "boundary_checks": [
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "router_messages",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "tool_arguments",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "embedding_inputs",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "checker_messages",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "answerer_messages",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_normal",
+      "stage": "operational_log",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "router_messages",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "tool_arguments",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "embedding_inputs",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "checker_messages",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "answerer_messages",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q01_two_purposes_short",
+      "stage": "operational_log",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "router_messages",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "tool_arguments",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "embedding_inputs",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "checker_messages",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "answerer_messages",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_normal",
+      "stage": "operational_log",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "router_messages",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "tool_arguments",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "embedding_inputs",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "checker_messages",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "answerer_messages",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c04_activities_short",
+      "stage": "operational_log",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "router_messages",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "tool_arguments",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "embedding_inputs",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "checker_messages",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "answerer_messages",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_normal",
+      "stage": "operational_log",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "router_messages",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "tool_arguments",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "embedding_inputs",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "checker_messages",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "answerer_messages",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "chat02_map_short",
+      "stage": "operational_log",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "router_messages",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "tool_arguments",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "embedding_inputs",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "checker_messages",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "answerer_messages",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_normal",
+      "stage": "operational_log",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "router_messages",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "tool_arguments",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "embedding_inputs",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "checker_messages",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "answerer_messages",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "c03_adventure_short",
+      "stage": "operational_log",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "router_messages",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "tool_arguments",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "embedding_inputs",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "checker_messages",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "answerer_messages",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_normal",
+      "stage": "operational_log",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "router_messages",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "tool_arguments",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "embedding_inputs",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "checker_messages",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "answerer_messages",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q04_fractions_example_short",
+      "stage": "operational_log",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "router_messages",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "tool_arguments",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "embedding_inputs",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "checker_messages",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "answerer_messages",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_normal",
+      "stage": "operational_log",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "router_messages",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "tool_arguments",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "embedding_inputs",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "checker_messages",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "answerer_messages",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "debug_metadata",
+      "passed": true
+    },
+    {
+      "id": "q10_parent_help_short",
+      "stage": "operational_log",
+      "passed": true
+    }
+  ]
+}

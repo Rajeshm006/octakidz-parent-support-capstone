@@ -1,0 +1,8 @@
+[passed] Python meets the minimum version requirement.
+[passed] Required capstone source files are present.
+[passed] Installed packages match requirements.lock.txt.
+[passed] A local API key is configured; it has not been checked online.
+[passed] The curated support data and required prompts are readable.
+[passed] The saved FAQ index matches the current knowledge and vector format.
+Ready for local chat.
+This check made no API requests; key validity, quota and internet access are not verified.

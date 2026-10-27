@@ -1,0 +1,208 @@
+{
+  "versions": {
+    "agent": "phase5_agent_v1",
+    "tools": "phase5_tools_v2",
+    "recorded_prior_rag": "phase4_rag_v2"
+  },
+  "controls": [
+    {
+      "id": "route_control_01_unknown",
+      "note": "Injected unavailable function; gateway blocks it, then the contact tool supplies guidance. No real model error is claimed.",
+      "origin": "injected_offline",
+      "agrees": true,
+      "backend_prepare_calls": 0,
+      "result": {
+        "answer": "You can email our team at support@octakidz.com or use the Contact Us page for help.",
+        "outcome": "safe_fallback",
+        "source_ids": [],
+        "model_called": true,
+        "latency_ms": 2.209541999036446,
+        "error_code": "tool_not_allowed",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "retrieved_ids": [],
+        "selected_ids": [],
+        "nearest_score": null,
+        "embedding_called": false,
+        "index_embedding_calls": 0,
+        "embedding_input_tokens": 0,
+        "checker_called": false,
+        "answerer_called": false,
+        "decision_action": null,
+        "decision_reason": null,
+        "router_called": true,
+        "proposed_tool": null,
+        "model_calls": 1,
+        "maximum_model_calls": 3,
+        "usage_complete": true,
+        "tool_attempts": 2,
+        "tool_calls": [
+          {
+            "tool_name": null,
+            "attempt": 1,
+            "outcome": "blocked",
+            "error_code": "tool_not_allowed"
+          },
+          {
+            "tool_name": "get_human_support",
+            "attempt": 2,
+            "outcome": "contact_guidance",
+            "error_code": null,
+            "handoff_sent": false
+          }
+        ],
+        "contact_url": "https://octakidz.com/contact-us",
+        "retrieved_context_reused": false
+      }
+    },
+    {
+      "id": "route_control_02_rewritten",
+      "note": "Injected query drops an unsupported part. The original-question guard rejects it before search, then contact guidance is returned.",
+      "origin": "injected_offline",
+      "agrees": true,
+      "backend_prepare_calls": 0,
+      "result": {
+        "answer": "You can email our team at support@octakidz.com or use the Contact Us page for help.",
+        "outcome": "safe_fallback",
+        "source_ids": [],
+        "model_called": true,
+        "latency_ms": 0.339333011652343,
+        "error_code": "tool_query_mismatch",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "retrieved_ids": [],
+        "selected_ids": [],
+        "nearest_score": null,
+        "embedding_called": false,
+        "index_embedding_calls": 0,
+        "embedding_input_tokens": 0,
+        "checker_called": false,
+        "answerer_called": false,
+        "decision_action": null,
+        "decision_reason": null,
+        "router_called": true,
+        "proposed_tool": "search_support_knowledge",
+        "model_calls": 1,
+        "maximum_model_calls": 3,
+        "usage_complete": true,
+        "tool_attempts": 2,
+        "tool_calls": [
+          {
+            "tool_name": "search_support_knowledge",
+            "attempt": 1,
+            "outcome": "blocked",
+            "error_code": "tool_query_mismatch"
+          },
+          {
+            "tool_name": "get_human_support",
+            "attempt": 2,
+            "outcome": "contact_guidance",
+            "error_code": null,
+            "handoff_sent": false
+          }
+        ],
+        "contact_url": "https://octakidz.com/contact-us",
+        "retrieved_context_reused": false
+      }
+    },
+    {
+      "id": "route_control_03_multiple",
+      "note": "An injected multiple-call batch is rejected in full; only the deterministic contact fallback executes.",
+      "origin": "injected_offline",
+      "agrees": true,
+      "backend_prepare_calls": 0,
+      "result": {
+        "answer": "You can email our team at support@octakidz.com or use the Contact Us page for help.",
+        "outcome": "safe_fallback",
+        "source_ids": [],
+        "model_called": true,
+        "latency_ms": 0.2391660091234371,
+        "error_code": "multiple_router_calls",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "retrieved_ids": [],
+        "selected_ids": [],
+        "nearest_score": null,
+        "embedding_called": false,
+        "index_embedding_calls": 0,
+        "embedding_input_tokens": 0,
+        "checker_called": false,
+        "answerer_called": false,
+        "decision_action": null,
+        "decision_reason": null,
+        "router_called": true,
+        "proposed_tool": null,
+        "model_calls": 1,
+        "maximum_model_calls": 3,
+        "usage_complete": true,
+        "tool_attempts": 1,
+        "tool_calls": [
+          {
+            "tool_name": "get_human_support",
+            "attempt": 1,
+            "outcome": "contact_guidance",
+            "error_code": null,
+            "handoff_sent": false
+          }
+        ],
+        "contact_url": "https://octakidz.com/contact-us",
+        "retrieved_context_reused": false
+      }
+    },
+    {
+      "id": "route_control_04_backend",
+      "note": "Injected backend failure stops provider work and uses contact guidance. No real provider outage is claimed.",
+      "origin": "injected_offline",
+      "agrees": true,
+      "backend_prepare_calls": 1,
+      "result": {
+        "answer": "You can email our team at support@octakidz.com or use the Contact Us page for help.",
+        "outcome": "service_error",
+        "source_ids": [],
+        "model_called": true,
+        "latency_ms": 0.4127080028411001,
+        "error_code": "connection_error",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "retrieved_ids": [],
+        "selected_ids": [],
+        "nearest_score": null,
+        "embedding_called": false,
+        "index_embedding_calls": null,
+        "embedding_input_tokens": 0,
+        "checker_called": false,
+        "answerer_called": false,
+        "decision_action": null,
+        "decision_reason": null,
+        "router_called": true,
+        "proposed_tool": "search_support_knowledge",
+        "model_calls": 1,
+        "maximum_model_calls": 3,
+        "usage_complete": true,
+        "tool_attempts": 2,
+        "tool_calls": [
+          {
+            "tool_name": "search_support_knowledge",
+            "attempt": 1,
+            "outcome": "tool_error",
+            "error_code": "connection_error",
+            "index_preparation_attempted": true,
+            "index_embedding_calls": null,
+            "query_embedding_attempted": false,
+            "embedding_input_tokens": 0
+          },
+          {
+            "tool_name": "get_human_support",
+            "attempt": 2,
+            "outcome": "contact_guidance",
+            "error_code": null,
+            "handoff_sent": false
+          }
+        ],
+        "contact_url": "https://octakidz.com/contact-us",
+        "retrieved_context_reused": false
+      }
+    }
+  ],
+  "origin": "Authored injected offline controls; no actual model mistake or provider outage is claimed."
+}

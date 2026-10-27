@@ -1,0 +1,535 @@
+{
+  "version": "phase7_feedback_v2",
+  "model": "gpt-4.1-mini",
+  "status": "complete_with_assistant_content_review",
+  "pairs": [
+    {
+      "id": "intro",
+      "before_id": "intro_normal",
+      "after_id": "intro_short",
+      "same_question": true,
+      "before_words": 71,
+      "after_words": 47,
+      "shorter": true,
+      "same_retrieved": true,
+      "same_selected": true
+    },
+    {
+      "id": "map",
+      "before_id": "map_normal",
+      "after_id": "map_short",
+      "same_question": true,
+      "before_words": 87,
+      "after_words": 43,
+      "shorter": true,
+      "same_retrieved": true,
+      "same_selected": true
+    },
+    {
+      "id": "marks",
+      "before_id": "marks_normal",
+      "after_id": "marks_short",
+      "same_question": true,
+      "before_words": 64,
+      "after_words": 45,
+      "shorter": true,
+      "same_retrieved": true,
+      "same_selected": true
+    }
+  ],
+  "boundary_assertions": [
+    {
+      "case_id": "c01_intro",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c01_intro",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    },
+    {
+      "case_id": "c01_intro",
+      "stage": "checker",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c01_intro",
+      "stage": "answerer",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c02_saved_question",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c02_saved_question",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    },
+    {
+      "case_id": "c02_saved_question",
+      "stage": "checker",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c02_saved_question",
+      "stage": "answerer",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c03_adventure",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c03_adventure",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    },
+    {
+      "case_id": "c03_adventure",
+      "stage": "checker",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c03_adventure",
+      "stage": "answerer",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c04_activities",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c04_activities",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    },
+    {
+      "case_id": "c04_activities",
+      "stage": "checker",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c04_activities",
+      "stage": "answerer",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c05_marks",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c05_marks",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    },
+    {
+      "case_id": "c05_marks",
+      "stage": "checker",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c05_marks",
+      "stage": "answerer",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c06_price",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c06_price",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    },
+    {
+      "case_id": "c06_price",
+      "stage": "checker",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c06_price",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    },
+    {
+      "case_id": "c09_write_code",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "c10_unrelated",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "intro_normal",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "intro_normal",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    },
+    {
+      "case_id": "intro_normal",
+      "stage": "checker",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "intro_normal",
+      "stage": "answerer",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "intro_short",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "intro_short",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    },
+    {
+      "case_id": "intro_short",
+      "stage": "checker",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "intro_short",
+      "stage": "answerer",
+      "names_absent": true,
+      "short_instruction_present": true,
+      "expected_short_instruction": true,
+      "passed": true
+    },
+    {
+      "case_id": "persistent_short",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "persistent_short",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    },
+    {
+      "case_id": "persistent_short",
+      "stage": "checker",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "persistent_short",
+      "stage": "answerer",
+      "names_absent": true,
+      "short_instruction_present": true,
+      "expected_short_instruction": true,
+      "passed": true
+    },
+    {
+      "case_id": "isolated_normal",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "isolated_normal",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    },
+    {
+      "case_id": "isolated_normal",
+      "stage": "checker",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "isolated_normal",
+      "stage": "answerer",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "normal_restored",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "normal_restored",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    },
+    {
+      "case_id": "normal_restored",
+      "stage": "checker",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "normal_restored",
+      "stage": "answerer",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "map_normal",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "map_normal",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    },
+    {
+      "case_id": "map_normal",
+      "stage": "checker",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "map_normal",
+      "stage": "answerer",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "map_short",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "map_short",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    },
+    {
+      "case_id": "map_short",
+      "stage": "checker",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "map_short",
+      "stage": "answerer",
+      "names_absent": true,
+      "short_instruction_present": true,
+      "expected_short_instruction": true,
+      "passed": true
+    },
+    {
+      "case_id": "marks_normal",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "marks_normal",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    },
+    {
+      "case_id": "marks_normal",
+      "stage": "checker",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "marks_normal",
+      "stage": "answerer",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "marks_short",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "marks_short",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    },
+    {
+      "case_id": "marks_short",
+      "stage": "checker",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "marks_short",
+      "stage": "answerer",
+      "names_absent": true,
+      "short_instruction_present": true,
+      "expected_short_instruction": true,
+      "passed": true
+    },
+    {
+      "case_id": "short_price",
+      "stage": "router",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "short_price",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    },
+    {
+      "case_id": "short_price",
+      "stage": "checker",
+      "names_absent": true,
+      "short_instruction_present": false,
+      "expected_short_instruction": false,
+      "passed": true
+    },
+    {
+      "case_id": "short_price",
+      "stage": "tool_arguments",
+      "names_absent": true,
+      "passed": true
+    }
+  ],
+  "reviewer": "Codex assistant review; not independent expert scoring"
+}

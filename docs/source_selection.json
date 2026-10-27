@@ -1,0 +1,162 @@
+{
+  "scope": "Independent capstone source only; no business/UI implementation or environment files.",
+  "copied_runtime_and_test_files": [
+    {
+      "path": "QUALITY_SCORECARD.md",
+      "sha256": "1c109b3cd0a1c2270b941c8656287bead4726d199685e13ecc961146ffedb28d"
+    },
+    {
+      "path": "baseline_agent.py",
+      "sha256": "2cb2182c70eac3d382aec4bfe559abc5d2e0b1613bb34797a4d92b7b529fbe83"
+    },
+    {
+      "path": "conversation_agent.py",
+      "sha256": "ffb6dc15b5d50821d3584192a52fe9ffbee51da0f1eb35bd9991935d8bc5238e"
+    },
+    {
+      "path": "conversation_memory.py",
+      "sha256": "12c988d3bccc0359a1c19737f1e119c1f3a2eaceb7b7e0d31b65a53195c20e1b"
+    },
+    {
+      "path": "evaluation/phase_comparison_cases.json",
+      "sha256": "4025f574fbcfeee6dcf048ec926fe84d567156e2d06b95e70e9afecb6d2fedc0"
+    },
+    {
+      "path": "evaluation/quality_cases.json",
+      "sha256": "f6bfdc1437f35d177487b0ef12c75689f9c57e0ec552ed2f04cbfe8f3ed2e53f"
+    },
+    {
+      "path": "grounded_checker.py",
+      "sha256": "14b690a336d553cf8e6fe061d2a4fb70bc4ad15f4ea3a43c0e68ce3d247d90fb"
+    },
+    {
+      "path": "inspect_rag.py",
+      "sha256": "674a0cba83508a44636a2336c5c427dd1a642ee5332e4b6e3203129f38cdc31d"
+    },
+    {
+      "path": "llm_agent.py",
+      "sha256": "7d928ef56a90698b716e6b15d941683a37d3873b32fb04474d0b67980e990554"
+    },
+    {
+      "path": "prompts/common.md",
+      "sha256": "f47d4c694c2bb0adbcf4f9372da5ebc48447949c10c9e0cba3b785e71b033d3d"
+    },
+    {
+      "path": "prompts/retrieval_check.md",
+      "sha256": "55165b3540054c639a24263d70e2e7a7ec3b4e030a9b99a59eaae46c7c61bef8"
+    },
+    {
+      "path": "prompts/tool_router.md",
+      "sha256": "4c94ad8f2c9994f5bff91c324cddfe8ce0fdae33edc923cd06b5df00e6c3924d"
+    },
+    {
+      "path": "prompts/v1_simple.md",
+      "sha256": "6da2812a54f1296b44faa6b488398bd24fdf7af4157186cc91478202b8c711f0"
+    },
+    {
+      "path": "prompts/v2_grounded.md",
+      "sha256": "2f866280cec101ccda45de402b208df34f9b51e3f583c2a0d42744e7c5a547de"
+    },
+    {
+      "path": "prompts/v3_parent.md",
+      "sha256": "f429fe6df2886253c3e8ae8575351a658fc4c39b3b0bec347b936d3305d4f527"
+    },
+    {
+      "path": "quality_metrics.py",
+      "sha256": "4ae28591c8f83830ca2eeec70ce331b8c3e3e3511dbd1a11ef31734b8f732c40"
+    },
+    {
+      "path": "rag_agent.py",
+      "sha256": "fb3384b2b86de92e704a4ce1db61c88c7725c8243019e02da6abdad7eefb8aa8"
+    },
+    {
+      "path": "requirements.lock.txt",
+      "sha256": "7a690258bcf2d1a9bd04be907de89dd70c184c3e3fe6831e153541790e4166d7"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "1113568a5c34d64b504c2660f27e046650d6c19508e2a33e795db6b5f192433a"
+    },
+    {
+      "path": "response_feedback.py",
+      "sha256": "cf888b6142d79e1f75c630d3dc0bde1fa23e2b9c019597afac9d52942d2021aa"
+    },
+    {
+      "path": "run_chat.py",
+      "sha256": "391bc509c3d1a9cdb39cf9c5c2fd1093910b8fb015ad9c65bbc9d0d97668cc7c"
+    },
+    {
+      "path": "semantic_search.py",
+      "sha256": "7ac32f501f7e8451c083a153d53a0322c8590abbcbf0c32b0ba011be602c3598"
+    },
+    {
+      "path": "support_safety.py",
+      "sha256": "f2f20632a118d9fb228fea81b4b079eb543906cde9801d90e73e064d71cdef07"
+    },
+    {
+      "path": "support_tools.py",
+      "sha256": "319c1d600d4402e9e0149c35d06cf270709ad81d7f1857d7ef956203fdc9bdd4"
+    },
+    {
+      "path": "tests/test_baseline_agent.py",
+      "sha256": "720cf6d0b1ff17219e4ac5d16b06c16b9fe99ef19a402cbcdf05fce9d3f7dc4b"
+    },
+    {
+      "path": "tests/test_conversation_agent.py",
+      "sha256": "0b8efc1452ef6fd29b2b8ca3a6945c884c152610f31ccc0f5b6075bb1d8052be"
+    },
+    {
+      "path": "tests/test_conversation_memory.py",
+      "sha256": "c672206492cd47e668bbae3c1ab7129084d5adb82e9babc8ad44a643ebd0ed4f"
+    },
+    {
+      "path": "tests/test_grounded_checker.py",
+      "sha256": "97f60587bf401159dbf04c7f30b4010a2fc6f5eebda5b7f3833e83dec7556933"
+    },
+    {
+      "path": "tests/test_inspect_rag.py",
+      "sha256": "52168cf7053982174d7715c7836e7b4559f7cdb91bc0c923554056a13e6ad334"
+    },
+    {
+      "path": "tests/test_llm_agent.py",
+      "sha256": "7ca5d159acd8e9a5d4dd3ee6e3caf02399ed8bbbe1ed977c11963a27f547f986"
+    },
+    {
+      "path": "tests/test_quality_metrics.py",
+      "sha256": "91552d03a11bdefb1ef9a8a846bf88892495168c6fc6e24e86fb484ba97f4d8e"
+    },
+    {
+      "path": "tests/test_rag_agent.py",
+      "sha256": "bfe6d4a535bb254ca966cd3a50abed09d033b97284c8c0c1b86b10ac356b7256"
+    },
+    {
+      "path": "tests/test_response_feedback.py",
+      "sha256": "20eb32a5e519b6f04c81c53e50794936e043d60158391a4e840c5d415b9477b4"
+    },
+    {
+      "path": "tests/test_run_chat.py",
+      "sha256": "1609b28f01a8790427b162b8c1f3a1d50ba1d1f9edea110e5fac1d501f7b6a26"
+    },
+    {
+      "path": "tests/test_semantic_search.py",
+      "sha256": "dda039fc657fff6b975b3fba26bc7693a096bc1d40a01834b731384354fe1b79"
+    },
+    {
+      "path": "tests/test_support_tools.py",
+      "sha256": "fb15f0e5e75e8bd7f794c08b45ddfddc45311f32b378dd010db669d57d75e5ca"
+    },
+    {
+      "path": "tests/test_tool_agent.py",
+      "sha256": "27debc1cd16afeac2f600b7865eb71194792c2d57b0d02ff7498a00f011c6fc1"
+    },
+    {
+      "path": "tool_agent.py",
+      "sha256": "f3c1187d15207f44276076121047852fe26dd1de089d8bd87264179f8a846383"
+    }
+  ],
+  "faq_projection": {
+    "entries": 30,
+    "runtime_fields_unchanged": true,
+    "removed": "Private provenance/source-location metadata only; no public answer or paraphrase change."
+  }
+}

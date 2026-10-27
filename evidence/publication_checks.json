@@ -1,0 +1,91 @@
+{
+  "scope": "Independent capstone exact file selection; scoped secret checks, not comprehensive certification.",
+  "selected_file_count": 79,
+  "checks": [
+    {
+      "check": "exact_allowlisted_membership",
+      "passed": true
+    },
+    {
+      "check": "no_symlinks",
+      "passed": true
+    },
+    {
+      "check": "no_environment_state_business_or_ui_source",
+      "passed": true
+    },
+    {
+      "check": "allowed_file_types_only",
+      "passed": true
+    },
+    {
+      "check": "exact_two_selected_screenshots",
+      "passed": true
+    },
+    {
+      "check": "screen_bytes_match_approved_selection",
+      "passed": true
+    },
+    {
+      "check": "copied_core_runtime_and_tests_unchanged",
+      "passed": true
+    },
+    {
+      "check": "all_thirty_runtime_facts_unchanged",
+      "passed": true
+    },
+    {
+      "check": "private_knowledge_provenance_removed",
+      "passed": true
+    },
+    {
+      "check": "literal_configured_credentials_absent",
+      "passed": true
+    },
+    {
+      "check": "key_token_and_private_key_patterns_absent",
+      "passed": true
+    },
+    {
+      "check": "private_machine_paths_and_real_child_names_absent",
+      "passed": true
+    },
+    {
+      "check": "framing_text_has_no_credential",
+      "passed": true
+    },
+    {
+      "check": "framing_exactly_two_pages",
+      "passed": true
+    },
+    {
+      "check": "all_159_candidate_core_tests_pass",
+      "passed": true
+    },
+    {
+      "check": "actual_ten_turn_demo_complete_reviewed",
+      "passed": true
+    },
+    {
+      "check": "demo_boundaries_and_reset_pass",
+      "passed": true
+    },
+    {
+      "check": "final_demo_within_budgets",
+      "passed": true
+    },
+    {
+      "check": "all_required_deliverables_present",
+      "passed": true
+    },
+    {
+      "check": "internal_document_links_resolve",
+      "passed": true
+    }
+  ],
+  "passed": 20,
+  "total": 20,
+  "missing_links": [],
+  "environment_files_included": false,
+  "proprietary_or_ui_source_included": false
+}
