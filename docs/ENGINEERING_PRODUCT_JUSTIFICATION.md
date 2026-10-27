@@ -40,3 +40,6 @@ The local homepage was a separate interface demonstration. Historical screenshot
 No cloud deployment is needed for the assignment's local option. A production website would require separate hosting decisions, authentication, abuse controls, session storage, dependency/secret scanning, confirmed privacy/policy processes and independent product validation. No automatic Vercel deployment or browser-visible provider key is configured.
 
 The business goal is a parent's informed choice, not purchase pressure. Suitability and learning benefits must be explained as intended outcomes, with commercial terms confirmed by the team. The natural-intelligence/interest map must leave room for change rather than confine a child to a label. User trust, tested limits and transparent escalation take priority over apparent complexity.
+
+
+The subsequently requested current-browser run is documented in [UI_BROWSER_TEST.md](UI_BROWSER_TEST.md), with fresh screenshots alongside the historical ones. [VERCEL_HOSTING.md](VERCEL_HOSTING.md) distinguishes the working local loopback service from the Python adapter/shared-state/cache changes needed for hosting. No UI source or cloud deployment is added by documenting/testing it.

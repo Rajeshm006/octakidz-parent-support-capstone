@@ -37,7 +37,7 @@ The UI is a way to use the support agent; it adds no private tutor access, new p
 - The server serves the dedicated static UI folder, rather than the project directory. Requests for the root `.env`, Python source and operational logs are rejected by the tested routes. Parent/model strings are displayed as plain text, with no HTML execution.
 - No production authentication, private-record access or public internet deployment is claimed. The local demo listens on loopback only.
 
-## Screenshots
+## Historical screenshots
 
 These are actual screenshots from the **26 October 2026 browser run**, whose answer backend was frozen at **phase9_completeness_v2**. They illustrate the interface, not a fresh test of later backend answers. The files were selected individually; no implementation snapshots or complete evidence directories accompany them.
 
@@ -65,4 +65,25 @@ The earlier browser run included a science-coverage wording concern; the later b
 
 ## Submission boundary
 
-This UI portion contains **only this document and two screenshots**. The UI source, raw brand assets, original business code, environment files and credentials remain outside it. The capstone's independent working-agent submission is a separate selection. The dedicated demonstration and package checks are documented in the main submission reports.
+This UI portion contains **this documentation and six selected screenshots (two historical, four current)**. The UI source, raw brand assets, original business code, environment files and credentials remain outside it. The capstone's independent working-agent submission is a separate selection. The dedicated demonstration and package checks are documented in the main submission reports.
+
+
+## Fresh current-backend Playwright screenshots - 27 October 2026
+
+These four actual screenshots use interface `homepage_chat_v1` with backend `phase9_answer_quality_v1`. The preceding older screenshots retain their original labels. The eleven unchanged regression questions and eight fictional conversation turns all matched their expected actions and rendered replies. Mobile layout, keyboard close/focus, reset and contact guidance were checked; no browser errors were observed in the tested flow. See the [current report](../UI_BROWSER_TEST.md) and [Vercel/direct-file explanation](../VERCEL_HOSTING.md).
+
+### Current homepage
+
+![Current local homepage](current/homepage-desktop.png)
+
+### Current activities explanation
+
+![Current activities chat](current/activities-chat.png)
+
+### Current private-record refusal
+
+![Current privacy refusal](current/privacy-refusal.png)
+
+### Current mobile support
+
+![Current mobile chat](current/mobile-support.png)

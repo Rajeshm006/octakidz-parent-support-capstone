@@ -14,13 +14,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "94e995541a0cec56a2511d259efdb5fe55cf070afcfaa56d61df1dc37f44620c",
-      "bytes": 4124
+      "sha256": "8787745bf3d70638e0719ab4eb46f5714a7bf7accab42e1be201f8dc5286012c",
+      "bytes": 5777
     },
     {
       "path": "SUBMISSION_CHECKLIST.md",
-      "sha256": "3d61ce223ecdc5e297c03e421e61ae839c7c1426daaf45aca279c0c10d49dbdb",
-      "bytes": 1737
+      "sha256": "4c7e7ff29ba1258c10db6a169f587fffa409836ebac539c0cfa52f6cacc21867",
+      "bytes": 1768
     },
     {
       "path": "baseline_agent.py",
@@ -49,18 +49,18 @@
     },
     {
       "path": "docs/ENGINEERING_PRODUCT_JUSTIFICATION.md",
-      "sha256": "a37176e52c468ad717114cae93489ff2898149e98852ad73ff3e191fae3d4872",
-      "bytes": 6140
+      "sha256": "a03d87c6d2c2330593581d0d98aee5b0564bbb120ed5f32f8040b3c1c5b099b8",
+      "bytes": 6530
     },
     {
       "path": "docs/EVALUATION_REPORT.md",
-      "sha256": "d5f541e0dd586894bbc327779ebf73217e02d5581972b67065d6cb8cbcef28b8",
-      "bytes": 8813
+      "sha256": "84d6e704f59cb81c0a0673a9fd626b0c5b6221ff64558b4e9b9bddec89d21f14",
+      "bytes": 9915
     },
     {
       "path": "docs/PACKAGE_VERIFICATION.md",
-      "sha256": "c18fa2816363829a5b828d8062a4165b60e8b61760237fa6046faeb1a73f8b19",
-      "bytes": 3658
+      "sha256": "5cc10b8d4adc457fe0a463f67022c348cd0bbdf00a7f6663d1080d7ee1d5b962",
+      "bytes": 4047
     },
     {
       "path": "docs/PROBLEM_FRAMING.md",
@@ -79,7 +79,7 @@
     },
     {
       "path": "docs/PUBLICATION_SCOPE.md",
-      "sha256": "cde8853db690bdbd7af2df1e6d5053ec8934f55b71644062ed59e8d6add508b4",
+      "sha256": "cee75d4aeefcda8fd99d986209038fa1741fe65e50632054f77d0a6c19598d4f",
       "bytes": 2292
     },
     {
@@ -88,14 +88,44 @@
       "bytes": 29995
     },
     {
+      "path": "docs/UI_BROWSER_TEST.md",
+      "sha256": "958c597bf987df34f4255f654194b0d0b7e01350288daf9b0b3f42c590cc1a01",
+      "bytes": 4420
+    },
+    {
+      "path": "docs/VERCEL_HOSTING.md",
+      "sha256": "68a71eed93d0090e2f66ae99b9e0aed6115c0e4d88d3258718c968b0a3b644f6",
+      "bytes": 3823
+    },
+    {
       "path": "docs/source_selection.json",
       "sha256": "a519fed9347b65198262b328c918a35db1245af907f4cf24f1a013732d5cfeb2",
       "bytes": 5503
     },
     {
       "path": "docs/ui/README.md",
-      "sha256": "286dcf3a64e935beca158bf924ffb7ae30536915e347ebbcc0298b6b927ab419",
-      "bytes": 7690
+      "sha256": "dcf85834321351c6befc8a2dc70a04d806a5296c4ba3371204095c40ae7bd3e9",
+      "bytes": 8697
+    },
+    {
+      "path": "docs/ui/current/activities-chat.png",
+      "sha256": "588d38e8d5a44bb5312fb4f9aedbc5cd2b9576d20e3f7c3866f59a22760eace4",
+      "bytes": 521295
+    },
+    {
+      "path": "docs/ui/current/homepage-desktop.png",
+      "sha256": "19f6d7bac22684a1439d2f89d9cf775fb9f4e85c4256daf0fb3b2f69acd441d3",
+      "bytes": 1529382
+    },
+    {
+      "path": "docs/ui/current/mobile-support.png",
+      "sha256": "190479284a5f64475bcfdb0ed0f62a0d3b9d490c48f3860a1db20573ded50cac",
+      "bytes": 57204
+    },
+    {
+      "path": "docs/ui/current/privacy-refusal.png",
+      "sha256": "067a0795e447a0fa5165efbf8b6da1054d82abb8fd1c69c6f4c33b7dada4e56b",
+      "bytes": 498201
     },
     {
       "path": "docs/ui/homepage-desktop.png",
@@ -116,6 +146,11 @@
       "path": "evaluation/quality_cases.json",
       "sha256": "f6bfdc1437f35d177487b0ef12c75689f9c57e0ec552ed2f04cbfe8f3ed2e53f",
       "bytes": 17319
+    },
+    {
+      "path": "evidence/browser_current/results.json",
+      "sha256": "d1330d8aae28b4a64dd1d9076fe09ae7e7d6bc58946d967f5987083de46fae1e",
+      "bytes": 24119
     },
     {
       "path": "evidence/clarification_fix.json",
@@ -174,8 +209,8 @@
     },
     {
       "path": "evidence/publication_checks.json",
-      "sha256": "889ece0b3487dcd9f526a20ee9c52b38c808afc978a06fc468dde3cc5a74d175",
-      "bytes": 2013
+      "sha256": "611e49b43c2ae0b39acab2ec90b03985f5358196c427ffdbfb105a06486b099b",
+      "bytes": 2196
     },
     {
       "path": "evidence/quality/after_focus.json",

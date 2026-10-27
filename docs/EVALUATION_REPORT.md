@@ -58,3 +58,14 @@ Known limits remain: awkward grouping in one football example, imperfect adheren
 Exact pins and 159 offline core checks accompany the source. The earlier fresh-venv run verified 39 pins on macOS arm64/Python 3.14.4, without copying a key/cache/log, followed by actual CLI replies; [summary](../evidence/clean_install_summary.json). The original workspace also had 14 UI tests, but that UI implementation is intentionally absent here. The candidate's fresh offline tests, startup and actual ten-turn/five-scenario demo are separate [package checks](PACKAGE_VERIFICATION.md).
 
 Next priorities are unseen questions and independent review, then production authentication/rate limits/session infrastructure and policy-confirmed integration if desired. Local deployment satisfies this capstone demonstration. Public GitHub code is the independent educational support agent; private product/UI code and credentials remain excluded.
+
+
+## Additional current-browser verification
+
+After the original publication, the owner requested a fresh Playwright run of the existing private UI. The current backend `phase9_answer_quality_v1` returned all eleven fixed replies and eight fictional conversation turns: HTTP 200, expected-action agreement and exact rendered text in all nineteen. The same map question shortened 72 to 53 words while retaining its required facts. All five image instances loaded; desktop/mobile had no horizontal overflow, mobile focus/Escape/reset worked, and no normal-flow browser warnings/errors or failed requests were observed. Five private-file/source/log probes returned 404. These are current flow checks with content observations, not a replacement for the frozen 45-reply semantic evaluation or independent reliability evidence.
+
+Four fresh examples are included in the final ZIP. [Current test report and actual replies](UI_BROWSER_TEST.md), [all screenshots](ui/README.md).
+
+![Current activity explanation](ui/current/activities-chat.png)
+
+![Current private-record refusal](ui/current/privacy-refusal.png)

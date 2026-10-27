@@ -2,7 +2,7 @@
 
 Python, LangChain and OpenAI support assistant for parents exploring Octakidz. It explains approved public product facts, searches by meaning, uses two bounded tools, remembers limited context during a chat, adapts answer length and offers human-contact guidance. Scenario 3: Customer Support; Track A: LangChain.
 
-This repository contains the independently built capstone agent. Private Octakidz tutor/business code and the homepage implementation are excluded. The optional UI is documented through two screenshots only. No credentials or environment files are supplied.
+This repository contains the independently built capstone agent. Private Octakidz tutor/business code and the homepage implementation are excluded. The optional UI is documented through two historical and four fresh Playwright screenshots; its implementation remains private. No credentials or environment files are supplied.
 
 ## Run locally
 
@@ -34,6 +34,25 @@ Tests and saved-result scoring make no API calls. The last command runs five aut
 
 Public repository: [Rajeshm006/octakidz-parent-support-capstone](https://github.com/Rajeshm006/octakidz-parent-support-capstone). Submit the separately named course ZIP; the link is an additional reference.
 
+## Run the existing private UI and understand hosting
+
+From the owner's existing private capstone folder containing `web/index.html`, `web/chat.js` and `web_server.py`:
+
+```sh
+python3 web_server.py --check
+python3 web_server.py --port 8771
+```
+
+Open **http://127.0.0.1:8771** and choose **Ask Octakidz**. Stop with Ctrl+C. This is a local address on the owner's computer, not a public demo link. These UI commands require the separate private UI folder; a clone of this public repository runs the independent terminal agent using the instructions above.
+
+Opening `index.html` directly does not start the Python chat backend. A hosted URL can let visitors chat, but both frontend and backend must be deployed. [Vercel hosting notes](docs/VERCEL_HOSTING.md) explain the server-only API key and the required session/cache/API adaptation. No Vercel deployment is configured here.
+
+Fresh Playwright verification uses the current backend: **11 fixed questions + eight fictional conversation turns**, all expected actions and all displayed replies matched. Normal/short map explanation: **72 to 53 words**. No observed browser errors; mobile layout, Clear chat, private-route refusals and human guidance passed these checks. These are authored flow tests, not a general accuracy score. [Actual test report](docs/UI_BROWSER_TEST.md).
+
+![Current activities answer in the desktop chat](docs/ui/current/activities-chat.png)
+
+![Current mobile support and cleared-name behaviour](docs/ui/current/mobile-support.png)
+
 ## Submission documents
 
 - [Problem framing, two-page PDF](docs/PROBLEM_FRAMING.pdf)
@@ -43,6 +62,6 @@ Public repository: [Rajeshm006/octakidz-parent-support-capstone](https://github.
 - [UI demonstration record](docs/ui/README.md)
 - [Publication scope and exclusions](docs/PUBLICATION_SCOPE.md), [package verification](docs/PACKAGE_VERIFICATION.md) and [file manifest](FILE_MANIFEST.json)
 
-The recorded 45-reply audit scores 10/10 supported, 5/5 missing-information and 5/5 safety cases against the fixed checklist. These known, assistant-reviewed cases meet draft checks; they are not population accuracy, independent expert validation, a grade or production certification. The final package has separate smoke/demo checks. Browser screenshots retain the older backend version from their actual run.
+The recorded 45-reply audit scores 10/10 supported, 5/5 missing-information and 5/5 safety cases against the fixed checklist. These known, assistant-reviewed cases meet draft checks; they are not population accuracy, independent expert validation, a grade or production certification. The final package has separate smoke/demo checks. Two historical browser screenshots retain their older backend label; the four new screenshots and current browser results use phase9_answer_quality_v1.
 
-Cloud hosting and Vercel are optional and are not configured here. The assignment permits local deployment. Keep a future provider key server-side; never expose it through public browser environment variables. This repository grants no licence to proprietary Octakidz assets or code; the two illustrative screenshots are demonstration evidence only.
+Cloud hosting and Vercel are optional and are not configured here. The assignment permits local deployment. Keep a future provider key server-side; never expose it through public browser environment variables. This repository grants no licence to proprietary Octakidz assets or code; the selected illustrative screenshots are demonstration evidence only.

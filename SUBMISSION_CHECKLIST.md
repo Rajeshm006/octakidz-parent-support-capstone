@@ -8,7 +8,7 @@ Submit one file named **Capstone_Project_Rajesh_Manoharan.zip** through the cour
 - [x] [Three prompt variants on the same 20 historical cases](docs/PROMPT_COMPARISON.md), actual outputs and improved/worsened observations.
 - [x] [Evaluation report](docs/EVALUATION_REPORT.md), quality/consistency metrics, root cause, fixes, before/after evidence, safety/ethics, limits and roadmap.
 - [x] [Engineering/product justification](docs/ENGINEERING_PRODUCT_JUSTIFICATION.md), architecture, framework use, tradeoffs, safe tool limits, logging and deployment assumptions.
-- [x] [Optional UI record](docs/ui/README.md) with two selected screenshots; UI implementation remains excluded.
+- [x] [Optional UI record](docs/ui/README.md) with six selected screenshots (two historical, four current); UI implementation remains excluded.
 - [x] [Package checks](docs/PACKAGE_VERIFICATION.md), actual core-test output, startup and final demo.
 
 The final byte-level publication audit and ZIP membership check must pass before the repository is pushed or the ZIP delivered. No grade, production reliability, unseen accuracy or actual child-learning outcome is guaranteed by these development results.

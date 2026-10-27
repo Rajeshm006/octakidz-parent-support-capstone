@@ -1,6 +1,6 @@
 {
   "scope": "Independent capstone exact file selection; scoped secret checks, not comprehensive certification.",
-  "selected_file_count": 79,
+  "selected_file_count": 86,
   "checks": [
     {
       "check": "exact_allowlisted_membership",
@@ -19,11 +19,19 @@
       "passed": true
     },
     {
-      "check": "exact_two_selected_screenshots",
+      "check": "exact_six_selected_screenshots",
       "passed": true
     },
     {
       "check": "screen_bytes_match_approved_selection",
+      "passed": true
+    },
+    {
+      "check": "current_screens_match_browser_originals",
+      "passed": true
+    },
+    {
+      "check": "current_browser_nineteen_replies_match",
       "passed": true
     },
     {
@@ -83,8 +91,8 @@
       "passed": true
     }
   ],
-  "passed": 20,
-  "total": 20,
+  "passed": 22,
+  "total": 22,
   "missing_links": [],
   "environment_files_included": false,
   "proprietary_or_ui_source_included": false
