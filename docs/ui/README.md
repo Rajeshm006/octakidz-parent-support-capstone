@@ -65,7 +65,7 @@ The earlier browser run included a science-coverage wording concern; the later b
 
 ## Submission boundary
 
-This UI portion contains **this documentation and six selected screenshots (two historical, four current)**. The UI source, raw brand assets, original business code, environment files and credentials remain outside it. The capstone's independent working-agent submission is a separate selection. The dedicated demonstration and package checks are documented in the main submission reports.
+This UI portion contains **this documentation and eight selected screenshots (two historical, four current local, two hosted)**. The UI/server source, raw brand assets, original business code, environment files and credentials remain outside it. The capstone's independent working-agent submission is a separate selection. The dedicated demonstration and package checks are documented in the main submission reports.
 
 
 ## Fresh current-backend Playwright screenshots - 27 October 2026
@@ -87,3 +87,11 @@ These four actual screenshots use interface `homepage_chat_v1` with backend `pha
 ### Current mobile support
 
 ![Current mobile chat](current/mobile-support.png)
+
+## Actual hosted preview screenshots — 27 October 2026
+
+The separate hosted_chat_v1 adapter uses the unchanged phase9_answer_quality_v1 agent. Eleven fixed questions plus eight fictional context turns passed their expected action/status/render checks. The preview requires authorised Vercel sign-in; use the [recorded hosted demonstration](../HOSTED_DEMO.md), [actual replies](../HOSTING_TEST_RESULTS.md) and [submission links](../../SUBMISSION_LINKS.md) if access is unavailable. These images were captured from the real hosted page, not a static evidence report. No hosting/UI implementation is included.
+
+![Hosted activities explanation](hosted/activities-desktop.png)
+
+![Hosted mobile support and reset](hosted/mobile-support.png)

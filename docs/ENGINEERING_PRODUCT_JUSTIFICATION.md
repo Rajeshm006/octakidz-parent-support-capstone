@@ -37,7 +37,7 @@ The independently runnable terminal agent is the publication target. Exact Pytho
 
 The local homepage was a separate interface demonstration. Historical screenshots prove that recorded browser flow under its labelled backend, not a current hosted product or answer-quality score. UI source, original assets and private business integration are excluded here.
 
-No cloud deployment is needed for the assignment's local option. A production website would require separate hosting decisions, authentication, abuse controls, session storage, dependency/secret scanning, confirmed privacy/policy processes and independent product validation. No automatic Vercel deployment or browser-visible provider key is configured.
+No cloud deployment is needed for the assignment's local option. A separate protected Vercel/FastAPI preview now runs the same agent with Redis temporary context and server-only secrets; [actual hosted evidence](HOSTED_DEMO.md) is included without its private UI/hosting source. No browser-visible provider key or anonymous public access is configured. A business-production website still requires operating/authentication/abuse/privacy choices and independent product validation.
 
 The business goal is a parent's informed choice, not purchase pressure. Suitability and learning benefits must be explained as intended outcomes, with commercial terms confirmed by the team. The natural-intelligence/interest map must leave room for change rather than confine a child to a label. User trust, tested limits and transparent escalation take priority over apparent complexity.
 

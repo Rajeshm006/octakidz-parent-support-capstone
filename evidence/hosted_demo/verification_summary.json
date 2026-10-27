@@ -1,0 +1,54 @@
+{
+  "version": "hosted_submission_summary_v1",
+  "date": "2026-10-27",
+  "url": "https://octakidz-parent-support-demo-2om0ih0ue-rajeshm006s-projects.vercel.app",
+  "deployment_state": "READY",
+  "access": "Vercel Authentication; authorised account required",
+  "offline_tests": {
+    "passed": 192,
+    "source": "offline_tests.txt",
+    "mode": "fake agent / Redis-Lua emulation for new hosting cases"
+  },
+  "core_tests_in_this_package": 159,
+  "local_hosting_browser_turns": 19,
+  "hosted_fixed_cases": 11,
+  "hosted_focused_turns": 8,
+  "all_hosted_actions_statuses_and_rendered_replies_agree": true,
+  "normal_short_map_words": [
+    80,
+    53
+  ],
+  "private_http_paths_return_404": true,
+  "cookie_flags": {
+    "secure": true,
+    "httpOnly": true,
+    "sameSite": "Strict"
+  },
+  "mobile": {
+    "no_horizontal_overflow": true,
+    "dialog_fits": true
+  },
+  "browser_storage": {
+    "local": 0,
+    "session": 0
+  },
+  "remote_source_membership_and_hash_check": {
+    "passed": true,
+    "files": 37,
+    "unexpected_files": 0,
+    "hash_mismatches": 0
+  },
+  "runtime": "Python 3.14 on Vercel Linux; existing Python/LangChain/OpenAI agent",
+  "storage": "Upstash Redis Free, preview only; 600-second idle TTL; paid auto-upgrade disabled in request",
+  "private_headers_recorded": false,
+  "environment_files_included": false,
+  "ui_or_hosting_source_included": false,
+  "limits": "Known authored cases; no new 45-case semantic score or general accuracy claim. Live multi-worker forcing/ten-minute expiry/exhaustion/outage not claimed.",
+  "setup_failures": [
+    "Initial rate-limit fixture used different thresholds on the two instances; fixture corrected without weakening runtime limits.",
+    "Initial package helper needed its import path corrected; interrupted local browser/server session was explicitly restarted.",
+    "Provider installation added public guide files; an upload was started before a failed file-selection check was acted on. Guides were moved outside the deployment selection; no environment files or actual key values were in the checked folder.",
+    "Initial cloud dependency metadata and a subsequent nested-file ignore pattern produced unusable deployments. Configuration/filter were corrected, a mandatory selection guard added, and all final remote source hashes checked.",
+    "The first CLI attempt was automatically assigned production despite a preview request. It remained protected. Both unusable setup deployments were removed after the verified preview passed. No production credentials or public launch are configured."
+  ]
+}
